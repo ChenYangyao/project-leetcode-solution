@@ -4,16 +4,18 @@
 
 This repository collects the nice solutions to leetcode [Algorithm problems](https://leetcode.com/problemset/algorithms/).
 
-Authors: Zili Yuan, Yangyao Chen, ??? Hu (ranked by random shuffle).
+Authors: Zili Yuan, Yangyao Chen, Young Wu (ranked by random shuffle).
 
 Comments and contritbutions are welcomed.
 
 ## Solutions
 
-[Problems](problems/README.md): responsible in turn
+Person in charge
 
-[Python](python): responsible by Zili Yuan
+[Problems](problems/README.md): in-turn
 
-[C++](cpp): responsible by Yangyao Chen
+[Python](python): Zili Yuan
 
-[Swift](swift): responsible by ??? Hu
+[C++](cpp): Yangyao Chen
+
+[Swift](swift): Young Wu
