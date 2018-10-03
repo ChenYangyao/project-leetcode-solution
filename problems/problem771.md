@@ -6,14 +6,14 @@ You're given strings J representing the types of stones that are jewels, and S r
 
 The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
-**Example 1**:
+__Example 1__:
 
 ```
 Input: J = "aA", S = "aAAbbbb"
 Output: 3
 ```
 
-**Example 2**:
+__Example 2__:
 
 ```
 Input: J = "z", S = "ZZ"
@@ -21,7 +21,7 @@ Output: 0
 ```
 ### Solution
 
-[Python](../cpp/problem771.cpp)
+[Python](../python/problem771.cpp)
 
 [C++](../cpp/problem771.cpp)
 
