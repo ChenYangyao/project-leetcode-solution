@@ -2,7 +2,7 @@
 
 ## About
 
-This repository collect the nice solution to leetcode [Algorithm problems](https://leetcode.com/problemset/algorithms/).
+This repository collects the nice solutions to leetcode [Algorithm problems](https://leetcode.com/problemset/algorithms/).
 
 Authors: Zili Yuan, Yangyao Chen, ??? Hu (ranked by random shuffle).
 
