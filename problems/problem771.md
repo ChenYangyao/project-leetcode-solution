@@ -21,7 +21,7 @@ Output: 0
 ```
 ### Solution
 
-[Python](../python/problem771.cpp)
+[Python](../python/problem771.py)
 
 [C++](../cpp/problem771.cpp)
 
