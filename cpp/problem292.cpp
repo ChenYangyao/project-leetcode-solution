@@ -9,8 +9,6 @@ public:
         return n%4;
     }
 };
-
-
 class Solution2 {
 public:
     bool canWinNim(int n) {
@@ -23,16 +21,30 @@ public:
         return history[findex];
     }
 };
+template<typename T>
+void check_time( T &sol, int repeat = 1000, int n = 100 ){
+    clock_t t1 = clock();
+    for (int i = 0; i < repeat; ++i){
+        sol.canWinNim(n);
+    }
+    clock_t t2 = clock();
+    cout << "time cost: " << double(t2-t1)/CLOCKS_PER_SEC << endl;
+}
 
 
 int main(int argc, char const *argv[]){
     Solution sol;
     Solution2 sol2;
 
+    // Test solutions by different inputs.
     cout << "\tsolution and solution2\n";
-    for (int i = 1; i <= 20; ++i){
+    for (int i = 1; i <= 10; ++i){
         cout << i << '\t' << sol.canWinNim(i) << '\t' << sol2.canWinNim(i) << '\n';
     }
+
+    // Compare efficiency of solutions.
+    check_time(sol);
+    check_time(sol2);
 
     return 0;
 }
