@@ -2,13 +2,26 @@
 #include <vector>
 using namespace std;
 
-
+// Class: Solution with mathematica thoughts.
+// Description:
+//  - from mathematica, if n % 4 == 0, then i will fail!
+//  - constant space and time costs.
+// Creat: Yangyao, date 20181004
+// References: none.
 class Solution {
 public:
     bool canWinNim(int n) {
         return n%4;
     }
 };
+
+// Class: Solution with iteration.
+// Description:
+//  - use a deque-like structure to keep former result.
+//  - constant space cost.
+//  - linear time cost = Theta(n).
+// Creat: Yangyao, date 20181004
+// References: none.
 class Solution2 {
 public:
     bool canWinNim(int n) {
@@ -21,6 +34,7 @@ public:
         return history[findex];
     }
 };
+
 template<typename T>
 void check_time( T &sol, int repeat = 1000, int n = 100 ){
     clock_t t1 = clock();
@@ -32,6 +46,7 @@ void check_time( T &sol, int repeat = 1000, int n = 100 ){
 }
 
 
+// Func: Driver function to test solutions
 int main(int argc, char const *argv[]){
     Solution sol;
     Solution2 sol2;
