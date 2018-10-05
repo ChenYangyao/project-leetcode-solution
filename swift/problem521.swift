@@ -6,3 +6,4 @@ class Solution {
 
 var test = Solution()
 print(test.findLUSlength("test","tset"))
+
