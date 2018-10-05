@@ -18,10 +18,10 @@ Typically this problem can be solve by DFS search. See [Leetcode official soluti
 
 **UFSet solution**
 
-But here we present a solution use 2-d Union-Find set. See [C++ Solution](../cpp/problem695.cpp) for an example. As tested, this is faster than DFSs, and most importantly, this cost no extra space.
+Here we present a solution use 2-d Union-Find Set (UFSet). See [C++ Solution](../cpp/problem695.cpp) for an example. As tested, this is faster than DFSs, and most importantly, this costs no extra space.
 
 To enable the 2-d UFSet to work:
-- We use 0 to represent water, use 1 to represent original island. This is consistent with the input matrix. For example the following one:
+- We use 0 to represent water, 1 to represent original island. This is consistent with the input matrix. For example the following one:
     ```txt
     0   0   1   0   1
     0   0   1   1   1
@@ -29,9 +29,9 @@ To enable the 2-d UFSet to work:
     1   1   0   0   0
     0   1   1   1   1
     ```
-- Positive value indicates the element is a root, and the value of it represents the area attach this tree.
-- Negative value indicates the element is not root, and the value of it indicate the position index of the root (see below for 1-d index definition).
-- the parent pointer index (i,j) in for 2-d matrix need to be converted to 1-d index. The conversion can be done by the following methods:
+- Positive value indicates that the element is a root, and the value of it represents the area attached to this tree.
+- Negative value indicates the element is not a root, and the value of it indicates the position index of the root (see below for the 1-d index definition).
+- the parent pointer index (i,j) in for 2-d matrix need to be converted to 1-d index. The conversions can be done by the following methods:
     ```c++
     void id2coord(int id, int &x, int &y){
         x = (-id - 1)/ncol; y = (-id - 1)%ncol;
