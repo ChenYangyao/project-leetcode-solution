@@ -1,3 +1,4 @@
+# These are examples of compilping commands in linux system.
 COMPILER = g++
 LIBS =
 LINKS =
@@ -9,4 +10,6 @@ problem762 : problem762.cpp
 problem292 : problem292.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
 problem521 : problem521.cpp
+	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
+problem695 : problem695.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)

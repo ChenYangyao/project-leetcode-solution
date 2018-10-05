@@ -6,3 +6,7 @@
 
 [problem 521 Longest Uncommon Subsequence I](problem521.md)
 
+
+**In advance:**
+
+[Problem 695 Max Area of Island](problem695.md)
