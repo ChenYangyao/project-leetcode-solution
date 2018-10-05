@@ -6,6 +6,8 @@
 
 [problem 521 Longest Uncommon Subsequence I](problem521.md)
 
+[problem 292 Nim Game](problem292.md)
+
 
 **In advance:**
 
