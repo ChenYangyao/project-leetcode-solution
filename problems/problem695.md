@@ -40,6 +40,7 @@ To enable the 2-d UFSet to work:
         return -(x*ncol + y + 1);
     }
     ```
+- to build a more efficient UFSet, the compressing operation in `findRoot()` function is automatically applied. The `merge()` function is also optimized to minimize the increasing of tree height.
 - In the solution, we use the loop only once, to merge the connected component. Finally we find the maximum tree. The matrix after the first run is
     ```txt
     0   0   13  0   -3
