@@ -1,4 +1,4 @@
-## Problem 521: Max Area of Island
+## Problem 695: Max Area of Island
 
 problem: [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)
 
