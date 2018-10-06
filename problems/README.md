@@ -8,6 +8,8 @@
 
 [problem 292 Nim Game](problem292.md)
 
+[problem 226 Nim Game](problem226.md)
+
 
 **In advance:**
 
