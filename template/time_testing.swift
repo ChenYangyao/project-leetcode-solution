@@ -40,6 +40,8 @@ class Solution3 {
 }
 
 //time testing function
+//swift is more strict than cpp when passing class to generic functions
+//so protocol and extension are needed
 protocol sol {
     func canWinNim(_ n: Int) -> Bool
 }

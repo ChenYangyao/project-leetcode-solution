@@ -1,4 +1,4 @@
-// Library needed by solutions shoube be imported by hand.
+// Library needed by solutions should be imported by hand.
 // Although these are automatically imported in Leetcode.
 #include <vector>
 #include <iostream>
