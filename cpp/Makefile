@@ -19,3 +19,5 @@ problem896 : problem896.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
 problem824 : problem824.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
+problem696 : problem696.cpp
+	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
