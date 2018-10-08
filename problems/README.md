@@ -10,8 +10,11 @@
 
 [problem 226 Invert Binary Tree](problem226.md)
 
-[Problem 429: N-ary Tree Level Order Traversal](problem429.md)
+[Problem 429 N-ary Tree Level Order Traversal](problem429.md)
 
+[problem 896 Monotonic Array](problem896.md)
+
+[problem 824 Goat Latin](problem824.md)
 **In advance:**
 
 [Problem 695 Max Area of Island](problem695.md)
