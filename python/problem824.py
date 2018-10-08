@@ -9,9 +9,6 @@ class Test:
 
         
 
-
-
-
 class Solution:
     def toGoatLatin(self, S):
         """
