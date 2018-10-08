@@ -7,10 +7,6 @@ class Test:
         t2=time.time()
         print('time=',t2-t1)
 
-        
-
-
-
 
 class Solution:
     def isMonotonic(self, A):
