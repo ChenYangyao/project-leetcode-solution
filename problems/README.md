@@ -15,6 +15,7 @@
 [problem 896 Monotonic Array](problem896.md)
 
 [problem 824 Goat Latin](problem824.md)
+
 **In advance:**
 
 [Problem 695 Max Area of Island](problem695.md)
