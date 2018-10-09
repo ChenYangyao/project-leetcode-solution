@@ -16,6 +16,8 @@
 
 [problem 824 Goat Latin](problem824.md)
 
+[problem 892 Surface Area of 3D Shapes](problem892.md)
+
 **In advance:**
 
 [Problem 695 Max Area of Island](problem695.md)
