@@ -18,6 +18,8 @@
 
 [problem 892 Surface Area of 3D Shapes](problem892.md)
 
+[problem 888 Fair Candy Swap](problem888.md)
+
 **In advance:**
 
 [Problem 695 Max Area of Island](problem695.md)
