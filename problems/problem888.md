@@ -1,4 +1,4 @@
-## Problem 888: Monotonic Array
+## Problem 888: Fair Candy Swap 
 
 problem: [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)
 

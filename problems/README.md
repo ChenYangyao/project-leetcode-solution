@@ -20,6 +20,8 @@
 
 [problem 888 Fair Candy Swap](problem888.md)
 
+[problem 812 Largest Triangle Area](problem812.md)
+
 **In advance:**
 
 [Problem 695 Max Area of Island](problem695.md)
