@@ -49,16 +49,16 @@ class Solution1 {
             return 0.0
         }
         
-        var maxArea = 0.0
+        var maxArea = 0
         
         for p1 in 0..<(length-2) {
             for p2 in (p1+1)..<(length-1) {
                 for p3 in (p2+1)..<length {
-                    maxArea = max(maxArea,Double(abs(cross_prod(points[p1],points[p2],points[p3])))/2.0)
+                    maxArea = max(maxArea,abs(cross_prod(points[p1],points[p2],points[p3])))
                 }
             }
         }
-        return maxArea
+        return Double(maxArea)/2.0
     }
 }
 
@@ -70,16 +70,16 @@ class Solution2 {
             return 0.0
         }
         
-        var maxArea = 0.0
+        var maxArea = 0
         
         for p1 in 0..<(length-2) {
             for p2 in (p1+1)..<(length-1) {
                 for p3 in (p2+1)..<length {
-                    maxArea = max(maxArea,Double(abs(cross_prod(points[p1],points[p2],points[p3])))/2.0)
+                    maxArea = max(maxArea,abs(cross_prod(points[p1],points[p2],points[p3])))
                 }
             }
         }
-        return maxArea
+        return Double(maxArea)/2.0
     }
 }
 
