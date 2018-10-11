@@ -4,11 +4,11 @@ problem: [letter case permutation](https://leetcode.com/problems/letter-case-per
 
 ### Solution
 
-- [Python](../python/problem812.py)
+- [Python](../python/problem784.py)
 
-- [C++](../cpp/problem812.cpp)
+- [C++](../cpp/problem784.cpp)
 
-- [Swift](../swift/problem812.swift)
+- [Swift](../swift/problem784.swift)
 
 ### Discussion
 
