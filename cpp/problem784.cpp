@@ -9,6 +9,8 @@ using namespace std;
 // Class: Ordinary solution, with BFS-like treatment of input string.
 // Description:
 //  - Extend the 'leaves' nodes by the BFS-like traversal.
+//  - Time cost: O(n * 2^n), where n is the length of input string S.
+//  - Space const: O(2^n), for the result vector.
 // Creat: Yangyao Chen, 2018/10/12
 // References: none
 class Solution {
@@ -32,8 +34,9 @@ public:
 
 // Class: Solution by allocating memory in advanve.
 // Description:
-//  - count the number of alphabetic bytes in the input string S, this will directly give the length of output vector.
-//  - allocate the memory for the result before doing computation.
+//  - Aount the number of alphabetic bytes in the input string S, this will directly give the length of output vector.
+//  - Allocate the memory for the result before doing computation.
+//  - Double the time-performance.
 // Creat: Yangyao Chen, 2018/10/20
 // References:
 //      Thanks Ziyang for the discussion. This solution may only have performance lifting for the C-language.

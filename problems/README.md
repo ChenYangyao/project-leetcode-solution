@@ -22,8 +22,8 @@
 
 [problem 812 Largest Triangle Area](problem812.md)
 
-[problem 784 letter case permutation](problem784.md)
+[problem 784 Letter Case Permutation](problem784.md)(with discussion)
 
 **In advance:**
 
-[Problem 695 Max Area of Island](problem695.md)
+[Problem 695 Max Area of Island](problem695.md)(with discussion)
