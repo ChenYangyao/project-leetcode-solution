@@ -1,4 +1,3 @@
-import Foundation
 import Dispatch
 
 public func cross_prod(_ p1: [Int], _ p2: [Int], _ p3: [Int]) -> Int {
@@ -25,7 +24,7 @@ public func monotone(_ points: [[Int]]) -> [[Int]] {
         upper.append(point)
     }
     
-    for point in points.lazy.reversed() {
+    for point in points.reversed() {
         while (lower.count >= 2) {
             if (cross_prod(lower[lower.count-2],lower[lower.count-1],point) < 0) {
                 break
@@ -102,7 +101,7 @@ var all_points = Array(repeating: [0,0], count: 1000)
 
 for i in 0..<1000 {
     for j in 0...1 {
-        all_points[i][j] = Int(arc4random_uniform(10000))
+        all_points[i][j] = Int.random(in: -10000...10000)
     }
 }
 
