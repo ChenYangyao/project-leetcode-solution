@@ -18,7 +18,7 @@ Typically this problem can be solve by DFS search. See [Leetcode official soluti
 
 **UFSet solution**
 
-Here we present a solution use 2-d Union-Find Set (UFSet). See [C++ Solution](../cpp/problem695.cpp) for an example. As tested, this is faster than DFSs, and most importantly, this costs no extra space.
+Here we present a solution use 2-d Union-Find Set (UFSet). See [C++ Solution](../cpp/problem695.cpp) for an example. As tested, this is **faster** than DFSs, and most importantly, this **costs no extra space**.
 
 To enable the 2-d UFSet to work:
 - We use 0 to represent water, 1 to represent original island. This is consistent with the input matrix. For example the following one:
