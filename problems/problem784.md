@@ -93,6 +93,9 @@ fraction of number  t1      t2
 0.167               2.182   1.413
 0.111               2.887   2.966
 ```
+The illustrative figure for the above performance testing is also here:
+
+![time.pdf](attached/problem784/time.pdf)
 
 We note that since C++ allow the change of charaters in string directly, with no new structure generated. So the performance lifting is apparent. For many language like Python, Swift..., the internal string type is immutable, so the second solution may be inable to lift the performance.
 
