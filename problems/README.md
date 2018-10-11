@@ -20,7 +20,7 @@
 
 [problem 888 Fair Candy Swap](problem888.md)
 
-[problem 812 Largest Triangle Area](problem812.md)
+[problem 812 Largest Triangle Area](problem812.md)(discussion for using Convex Hull needs to be done, please write some paragraphs if convenient)
 
 [problem 784 Letter Case Permutation](problem784.md)(with discussion)
 
