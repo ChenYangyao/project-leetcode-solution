@@ -24,6 +24,7 @@
 
 [problem 784 Letter Case Permutation](problem784.md)(with discussion)
 
-**In advance:**
-
 [Problem 695 Max Area of Island](problem695.md)(with discussion)
+
+[Problem 258 Add Digits](problem258.md)
+
