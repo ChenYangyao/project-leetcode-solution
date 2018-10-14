@@ -49,10 +49,4 @@ To enable the 2-d UFSet to work:
     -3  -3  0   0   0
     0   -3  -3  -3  -3
     ```
-    The maximal element 13 now is the answer. While all the negative elements represnt the indexs of parent nodes .
-
-
-
-
-
-
+    The maximal element 13 now is the answer. While all the negative elements represent the indexes of parent nodes.
