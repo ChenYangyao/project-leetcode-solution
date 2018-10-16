@@ -28,3 +28,8 @@
 
 [Problem 258 Add Digits](problem258.md)
 
+[Problem 748 Shortest Completing Word](problem748.md)
+
+[Problem 283 Move Zeroes](problem283.md)
+
+[Problem 389 Find the Difference](problem389.md)
