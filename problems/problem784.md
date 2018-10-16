@@ -16,7 +16,7 @@ problem: [letter case permutation](https://leetcode.com/problems/letter-case-per
 
 There is a basic way of solving this problem: the BFS-like traversal of leaves nodes. This is considered as following.
 
-- Treat the NULL string as the node of the BFS tree.
+- Treat the NULL string as the root of the BFS tree.
 
 - Traverse the input string `S`. For each charater, if it is a digital byte, extend a level of the tree by adding each leaf node this digital character (with number of leaf nodes unchanged). If it is a alphabetic byte, extent the tree by given each leaf a left child, with a lower-case character appended, and a right child, with a upper-case charater appended.
 
