@@ -33,3 +33,7 @@ problem371 : problem371.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
 problem606 : problem606.cpp
 	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
+problem122 : problem122.cpp
+	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
+problem242 : problem242.cpp
+	$(COMPILER) $(FLAGS) $(LIBS) -o $@.out $^ $(LINKS)
