@@ -33,3 +33,10 @@
 [Problem 283 Move Zeroes](problem283.md)
 
 [Problem 389 Find the Difference](problem389.md)
+
+[Problem 520 Detect Capital](problem520.md)
+
+[Problem 448 Find All Numbers Disappeared in an Array](problem448.md)
+
+[Problem 696 Count Binary Substrings](problem696.md)
+

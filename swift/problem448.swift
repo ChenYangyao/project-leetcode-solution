@@ -28,7 +28,7 @@ class Solution1 {
     }
 }
 
-//ref: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/178735/c++-simple-o(n)-solution
+//not O(n). ref: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/178735/c++-simple-o(n)-solution
 class Solution2 {
     func findDisappearedNumbers(_ nums: [Int]) -> [Int] {
         var nums = nums
@@ -38,7 +38,7 @@ class Solution2 {
         for i in 0..<length {
             while (nums[i] != i + 1) {
                 let index = nums[i] - 1
-                if (nums[i] == nums[index]) {
+                if (nums[i] == nums[index]) { //prevent infinite loop due to duplicate numbers in nums
                     break
                 }
                 nums.swapAt(i,index)
