@@ -112,4 +112,6 @@ protected:
     stack<TreeNode *> _stk, _rstk;
 };
 
+```
+
 At `<1>` the DFS is initialized, while calling of `<3>` always return the next node. `<2>` and `<4>` do the same thing, but for the reversed DFS. Here at `<5>` we narrow the range of sequential list by comparing the sum of two ends of the squential list with the target value. This solution doubles the memory cost, 2*log(n), compared with solution 1, since it maintains two stack structures, but the time consumption is much better, O(n).
