@@ -40,3 +40,8 @@
 
 [Problem 696 Count Binary Substrings](problem696.md)
 
+[Problem 371 Sum of Two Integers](problem371.md)
+
+[Problem 788 Rotated Digits](problem788.md)
+
+[Problem 653 Two Sum IV - Input is a BST](problem653.md)
