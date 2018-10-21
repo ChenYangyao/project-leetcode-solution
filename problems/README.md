@@ -44,4 +44,4 @@
 
 [Problem 788 Rotated Digits](problem788.md)
 
-[Problem 653 Two Sum IV - Input is a BST](problem653.md)
+[Problem 653 Two Sum IV - Input is a BST](problem653.md)(with discussion)
