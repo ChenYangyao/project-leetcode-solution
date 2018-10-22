@@ -16,7 +16,7 @@ problem: [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-
 
 The key feature of this problem is that the input sequence is a binary search tree (BST), which itself is a very efficient structure for searching problem. So we have the following conclusion:
 
-- The [solution using a Hash-table](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/solution/) (either with BST or without) is un-acceptable, since it takes O(n) extra memory (note that the space cost by hash table usually has a very large coefficient, so the extra memory consuming can be even larger than the BST itself).
+- The [solution using a Hash-table](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/solution/) (either with BST or without) is un-acceptable, since it takes O(n) extra memory (note that the space cost by a hash table usually has a very large coefficient, so the extra memory consuming can be even larger than the BST itself).
 
 - The solution should take advantage of the properties of the BST structure.
 
@@ -24,7 +24,7 @@ Considering these two conclusion, we have the following solutions. The first hav
 
 **Solution 1: using BST searching algorithm**
 
-For each value to search, the BST give response within O(log(n)) time (where n is the number of nodes in BST). When we want the find two nodes with value i, j that satisfy i+j = sum, we traverse the BST, and for each node with value x we determine whether sum - x is in the tree or not by BST search. This is stopped when sum-x is found in the tree, or the traversal is finished.
+For each value to search, the BST gives response within O(log(n)) time (where n is the number of nodes in BST). When we want to find two nodes with value i, j that satisfy i+j = sum, we traverse the BST, and for each node with value x we determine whether sum - x is in the tree or not by BST search. This is stopped when sum-x is found in the tree, or the traversal is finished.
 
 The algorithm shall like this:
 ```c++
@@ -54,7 +54,7 @@ Here the subroutine `<1>` implement the BST search algorithm. At `<2>` we perfor
 
 **Solution 2: Squeezing method**
 
-This treat the BST as a sorted sequential list `L` with index ranging from `beg` to `end`. We firstly know that the result `i`, 'j' should locate in range [beg, end], then we iterate to narrow the range. At each step,
+This treat the BST as a sorted sequential list `L` with index ranging from `beg` to `end`. We first know that the result `i`, 'j' should locate in range [beg, end], then we iterate to narrow the range. At each step,
 
 * if L[i] + L[j] < sum: the only sensible way is to increase i by 1, since if we decrease j, the summation must decrease.
 
@@ -64,7 +64,7 @@ This treat the BST as a sorted sequential list `L` with index ranging from `beg`
 
 The loop we stopped when we find the result, or the index j >= i so we know the result does not exist.
 
-The only problem remains is that how we take the BST as a sequence. The key is to use in-order-DFS. An in-order-DFS for BST will give a increasing sequence, while the reversed in-order-DFS wille give a decreasing one. So we maintain two stack, one for normal DFS, one for reversed one.
+The only problem remains is that how we take the BST as a sequence. The key is to use in-order-DFS. An in-order-DFS for BST will give an increasing sequence, while the reversed in-order-DFS will give a decreasing one. So we maintain two stacks, one for normal DFS while the other for reversed one.
 
 The implementation can be like the following:
 ```c++
@@ -114,4 +114,4 @@ protected:
 
 ```
 
-At `<1>` the DFS is initialized, while calling of `<3>` always return the next node. `<2>` and `<4>` do the same thing, but for the reversed DFS. Here at `<5>` we narrow the range of sequential list by comparing the sum of two ends of the squential list with the target value. This solution doubles the memory cost, 2*log(n), compared with solution 1, since it maintains two stack structures, but the time consumption is much better, O(n).
+At `<1>` the DFS is initialized, while calling of `<3>` always return the next node. `<2>` and `<4>` do the same thing, but for the reversed DFS. Here at `<5>` we narrow the range of sequential list by comparing the sum of two ends of the squential list with the target value. This solution doubles the memory cost, 2*log(n), compared with solution 1, since it maintains two stack structures, but the time consumption is much better, viz O(n).
