@@ -16,15 +16,15 @@ problem: [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-
 
 The key feature of this problem is that the input sequence is a binary search tree (BST), which itself is a very efficient structure for searching problem. So we have the following conclusion:
 
-- The [solution using a Hash-table](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/solution/) (either with BST or without) is un-acceptable, since it takes O(n) extra memory (note that the space cost by hash table usually has a very large coefficient, so the extra memory consuming can be even larger than the BST itself).
+- The [solution using a Hash-table](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/solution/) (either with BFS or without) is un-acceptable, since it takes O(n) extra memory (note that the space cost by hash table usually has a very large coefficient, so the extra memory consuming can be even larger than the BST itself).
 
 - The solution should take advantage of the properties of the BST structure.
 
-Considering these two conclusion, we have the following solutions. The first have LESS memory cost O(log(n)), but larger time cost O(n*log(n)), so it is most suitable for space-limited problem. The second have O(log(n)) space cost (same with the first method in O notation, but have a larger coefficient), but BEST time cost ( O(n) ), so it is nice for the time-controlled situation.
+Considering these two conclusions, we have the following solutions. The first have LESS memory cost O(log(n)), but larger time cost O(n*log(n)), so it is most suitable for space-limited problem. The second have O(log(n)) space cost (same with the first method in big-O notation, but have a larger coefficient), but BEST time cost ( O(n) ), so it is nice for the time-controlled situation.
 
 **Solution 1: using BST searching algorithm**
 
-For each value to search, the BST give response within O(log(n)) time (where n is the number of nodes in BST). When we want the find two nodes with value i, j that satisfy i+j = sum, we traverse the BST, and for each node with value x we determine whether sum - x is in the tree or not by BST search. This is stopped when sum-x is found in the tree, or the traversal is finished.
+For each value to search, the BST give response within O(log(n)) time (where n is the number of nodes in BST). When we want to find two nodes with value i, j that satisfy i+j = sum, we traverse the BST, and for each node with value x we determine whether sum - x is in the tree or not by BST search. This is stopped when sum-x is found in the tree, or the traversal is finished.
 
 The algorithm shall like this:
 ```c++
@@ -50,19 +50,19 @@ TreeNode * locateVal(int val, TreeNode *p){             // <1> Search the value 
 }
 ```
 
-Here the subroutine `<1>` implement the BST search algorithm. At `<2>` we perform DFS traversal with a stack.  The DFS takes O(log(n)) memory, and O(n) time. For each node visited, we apply the BST search with time cost O(log(n)) and space cost O(1). So the total time cost is O(n*log(n)) while the total space cost remains O(log(n)).
+Here the subroutine `<1>` implement the BST search algorithm. At `<2>` we perform DFS traversal with a stack.  The DFS takes O(log(n)) memory, and O(n) time. For each node visited, he BST search has time cost O(log(n)) and space cost O(1). So the total time cost is O(n*log(n)) while the total space cost remains O(log(n)).
 
 **Solution 2: Squeezing method**
 
-This treat the BST as a sorted sequential list `L` with index ranging from `beg` to `end`. We firstly know that the result `i`, 'j' should locate in range [beg, end], then we iterate to narrow the range. At each step,
+This treat the BST as a sorted sequential list `L` with index ranging from `beg` to `end`. We firstly know that the result `i`, `j` should locate in range [beg, end], then we iterate to narrow the range. At each step,
 
-* if L[i] + L[j] < sum: the only sensible way is to increase i by 1, since if we decrease j, the summation must decrease.
+* if L[beg] + L[end] < sum: the only sensible way is to increase beg by 1, since if we decrease end, the summation must decrease.
 
-* if L[i] + L[j] > sum: similar to above, but we need to decrease j by 1.
+* if L[beg] + L[end] > sum: similar to above, but we need to decrease end by 1.
 
-* if L[i] + L[j] == sum: we find the result.
+* if L[beg] + L[end] == sum: we find the result.
 
-The loop we stopped when we find the result, or the index j >= i so we know the result does not exist.
+The loop we stopped when we find the result, or the index end >= beg so we know the result does not exist.
 
 The only problem remains is that how we take the BST as a sequence. The key is to use in-order-DFS. An in-order-DFS for BST will give a increasing sequence, while the reversed in-order-DFS wille give a decreasing one. So we maintain two stack, one for normal DFS, one for reversed one.
 
