@@ -181,7 +181,6 @@ class Solution2 {
             if (digit != 0) {
                 if (flag_good && !flag_bad) {
                     result += valid[digit]*pow(index)
-                    
                 } else if (!flag_good && !flag_bad) {
                     result += (good[digit]*pow(index) + mediocre[digit]*lesser[index])
                 } else {

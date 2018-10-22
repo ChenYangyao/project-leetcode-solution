@@ -65,7 +65,8 @@ class conversion {
     }
 }
 
-class Solution {
+//convert BST to increasing order array first
+class Solution1 {
     func in_order(_ root: TreeNode?) -> [Int] {
         var value = [Int]()
         var stack = [TreeNode]()
@@ -105,5 +106,60 @@ class Solution {
     }
 }
 
+//swift implementation of problem653.cpp using two stacks
+class Solution2 {
+    private var stack = [TreeNode]()
+    private var r_stack = [TreeNode]()
+    private var cur: TreeNode? = nil
+    private var r_cur: TreeNode? = nil
+    
+    private func next() -> TreeNode? {
+        if (stack.count > 0 || cur != nil) {
+            var tmp = cur
+            while (tmp != nil) {
+                stack.append(tmp!)
+                tmp = tmp?.left
+            }
+            tmp = stack.popLast()!
+            cur = tmp?.right
+            return tmp
+        }
+        return nil
+    }
+    
+    private func r_next() -> TreeNode? {
+        if (r_stack.count > 0 || r_cur != nil) {
+            var tmp = r_cur
+            while (tmp != nil) {
+                r_stack.append(tmp!)
+                tmp = tmp?.right
+            }
+            tmp = r_stack.popLast()!
+            r_cur = tmp?.left
+            return tmp
+        }
+        return nil
+    }
+    
+    func findTarget(_ root: TreeNode?, _ k: Int) -> Bool {
+        cur = root; r_cur = root
+        var l = next(); var r = r_next()
+        var sum = 0
+        
+        while (l != nil && r != nil && l!.val != r!.val) {
+            sum = l!.val + r!.val
+            if (sum < k) {
+                l = next()
+            } else if (sum > k) {
+                r = r_next()
+            } else {
+                return true
+            }
+        }
+        return false
+    }
+}
+
 let root = conversion().a_to_b([8,3,10,1,6,nil,14,nil,nil,4,7,13,nil])
-print(Solution().findTarget(root,14))
+print(Solution1().findTarget(root,14))
+print(Solution2().findTarget(root,14))
