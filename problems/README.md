@@ -45,3 +45,7 @@
 [Problem 788 Rotated Digits](problem788.md)
 
 [Problem 653 Two Sum IV - Input is a BST](problem653.md)(with discussion)
+
+[Problem 606: Construct String from Binary Tree](problem606.md)
+
+[Problem 171: Excel Sheet Column Number](problem171.md)
