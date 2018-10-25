@@ -54,5 +54,3 @@
 
 [Problem 237: Delete Node In A Linked List](problem237.md)
 
-[Problem 237: Delete Node In A Linked List](problem237.md)
-
