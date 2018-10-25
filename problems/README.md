@@ -49,3 +49,5 @@
 [Problem 606: Construct String from Binary Tree](problem606.md)
 
 [Problem 171: Excel Sheet Column Number](problem171.md)
+
+[Problem 169: Majority Element](problem169.md)
