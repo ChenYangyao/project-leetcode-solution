@@ -19,8 +19,8 @@ title=$(echo $webpage |
     cut -f 5 -d / |
     sed -e 's/-\([[:alnum:]]\)/ \u\1/g' |
     sed 's/^\([[:alnum:]]\)/\u\1/')
-echo "add problem:" $title
 
+echo "generate file: $fname"
 printf "## Problem $pid: $title\n\n" >$fname
 printf "problem: [$title]($webpage)\n\n" >>$fname
 printf "### Solution\n\n">>$fname
@@ -30,6 +30,7 @@ printf -- "- [Swift](../swift/problem$pid.swift)\n\n">>$fname
 printf "### Discussion\n\n" >>$fname
 printf "TBD\n\n" >>$fname
 
+echo "add problem:" $title " to README.md"
 printf "[Problem $pid: $title]($fname)\n\n" >>README.md
 
 
