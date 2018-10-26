@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 if [ $# -ne 2 ]
 then
@@ -15,10 +15,22 @@ pid=$1
 webpage=$2
 fname="problem$pid.md"
 
-title=$(echo $webpage |
-    cut -f 5 -d / |
-    sed -e 's/-\([[:alnum:]]\)/ \u\1/g' |
-    sed 's/^\([[:alnum:]]\)/\u\1/')
+if [ "$(uname)" == "Darwin" ]
+then
+    command -v gsed >/dev/null 2>&1 || { echo "this script needs gsed!"; exit 1; }
+    title=$(echo $webpage |
+        cut -f 5 -d / |
+        gsed -e 's/-\([[:alnum:]]\)/ \u\1/g' |
+        gsed 's/^\([[:alnum:]]\)/\u\1/')
+elif [ "$(uname)" == "Linux" ]
+then
+    title=$(echo $webpage |
+        cut -f 5 -d / |
+        sed -e 's/-\([[:alnum:]]\)/ \u\1/g' |
+        sed 's/^\([[:alnum:]]\)/\u\1/')
+else
+    echo "unkown system"
+fi
 
 echo "generate file: $fname"
 printf "## Problem $pid: $title\n\n" >$fname
