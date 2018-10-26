@@ -20,11 +20,14 @@ class Solution2 {
     func majorityElement(_ nums: [Int]) -> Int {
         var key = 0
         var time = 0
-        for number in nums {
+        var index = nums.count
+        
+        while (index > time) {
+            index -= 1
             if (time != 0) {
-                time += (key == number) ? 1 : -1
+                time += (key == nums[index]) ? 1 : -1
             } else {
-                key = number
+                key = nums[index]
                 time = 1
             }
         }
