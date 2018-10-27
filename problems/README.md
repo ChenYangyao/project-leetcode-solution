@@ -62,3 +62,5 @@
 
 [Problem 242: Valid Anagram](problem242.md)
 
+[Problem 217: Contains Duplicate](problem217.md)
+
