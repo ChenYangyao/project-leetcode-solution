@@ -60,3 +60,5 @@
 
 [Problem 860: Lemonade Change](problem860.md)
 
+[Problem 242: Valid Anagram](problem242.md)
+
