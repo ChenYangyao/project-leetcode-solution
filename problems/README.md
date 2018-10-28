@@ -64,3 +64,5 @@
 
 [Problem 217: Contains Duplicate](problem217.md)
 
+[Problem 538: Convert Bst To Greater Tree](problem538.md)
+
