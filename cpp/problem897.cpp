@@ -27,7 +27,12 @@ public:
     }
 };
 
-class Solution {
+// Class: Solution by rotating the tree.
+// Description:
+//  - NO extra memory cost.
+//  - O(n) time cost.
+// Creat: Yangyao Chen, 2018/10/29
+class Solution2 {
 public:
     TreeNode* increasingBST(TreeNode* root) {
         TreeNode *head = new TreeNode(0);
@@ -47,5 +52,39 @@ public:
         root = head->right;
         delete head;
         return root;
+    }
+};
+
+// Class: Modified version of previous one, but use a 'threading method' borrowed from threading BST.
+// Creat: Yangyao Chen, 2018/10/29
+// Description:
+//  - space and time cost is similar with previous one in big-O notation, but it is more beautiful in the code-format.
+// Reference:
+//  - See Problem 538: Convert Bst To Greater Tree. The official solution give an example of in-order traversal
+//      with constant memory cost, which is a variant of threading BST.
+//  - Here the method is similar to that solution, by we 'fully' thread it without recovery.
+class Solution3 {
+public:
+    TreeNode* increasingBST(TreeNode* root) {
+        auto head = TreeNode(0), *pre = &head, *p = root;
+        head.right = root;
+        while(p){
+            if( p->left ){
+                auto *q = p->left;
+                locatePre(p)->right = p;
+                p->left = nullptr;
+                pre->right = p = q;
+            }else{
+                pre = p;
+                p = p->right;
+            }
+        }
+        return head.right;
+    }
+    // Find the progenitor of p (in-order rank).
+    TreeNode* locatePre( TreeNode *p ){
+        p = p->left;
+        while( p->right ) p = p->right;
+        return p;
     }
 };

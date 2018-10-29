@@ -2,6 +2,8 @@
 
 [problem 771 Jewels and Stones](problem771.md)
 
+[Problem 897: Increasing Order Search Tree](problem897.md)(discussion TBD)
+
 [problem 762 Prime Number of Set Bits in Binary Representation](problem762.md)
 
 [problem 521 Longest Uncommon Subsequence I](problem521.md)
@@ -20,11 +22,11 @@
 
 [problem 888 Fair Candy Swap](problem888.md)
 
-[problem 812 Largest Triangle Area](problem812.md)(with discussion)
+[problem 812 Largest Triangle Area](problem812.md)(with discussion, 2-d Convex Hull algorithm)
 
-[problem 784 Letter Case Permutation](problem784.md)(with discussion)
+[problem 784 Letter Case Permutation](problem784.md)(with discussion, static tree, with pre-allocated memory and BFS visit)
 
-[Problem 695 Max Area of Island](problem695.md)(with discussion)
+[Problem 695 Max Area of Island](problem695.md)(with discussion, 2-d UFSet algorithm)
 
 [Problem 258 Add Digits](problem258.md)
 
@@ -44,7 +46,7 @@
 
 [Problem 788 Rotated Digits](problem788.md)
 
-[Problem 653 Two Sum IV - Input is a BST](problem653.md)(with discussion)
+[Problem 653 Two Sum IV - Input is a BST](problem653.md)(with discussion, use two stacks to perform visits in reversed directions)
 
 [Problem 606: Construct String from Binary Tree](problem606.md)
 
@@ -64,7 +66,7 @@
 
 [Problem 217: Contains Duplicate](problem217.md)
 
-[Problem 538: Convert Bst To Greater Tree](problem538.md)
+[Problem 538: Convert Bst To Greater Tree](problem538.md) (discussion TBD, with problem 897)
 
 [Problem 796: Rotate String](problem796.md)
 
