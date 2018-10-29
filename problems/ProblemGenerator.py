@@ -23,13 +23,13 @@ class ProblemGenerator:
         s = "## Problem %d: %s\n\n"%(self.pid, self.title)
         s += "problem: [%s](%s)\n\n"%(self.title, self.web)
         s += "### Solution\n\n"
-        s += self.getSolution('python','py')
-        s += self.getSolution('c++','cpp')
-        s += self.getSolution('swift','swift')
+        s += self.getSolution('python','python','py')
+        s += self.getSolution('c++','cpp','cpp')
+        s += self.getSolution('swift','swift','swift')
         s += "### Discussion\n\nTBD\n\n"
         return s
-    def getSolution(self, lang, postfix):
-        return "- [%s](../%s/problem%d.%s)\n\n"%( lang.capitalize(), lang, self.pid, postfix )
+    def getSolution(self, lang, folder ,postfix):
+        return "- [%s](../%s/problem%d.%s)\n\n"%( lang.capitalize(), folder, self.pid, postfix )
     def getReadmeString(self):
         return "[Problem %d: %s](problem%d.md)\n\n"%(self.pid, self.title, self.pid)
 
