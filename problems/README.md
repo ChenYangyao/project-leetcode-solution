@@ -66,3 +66,5 @@
 
 [Problem 538: Convert Bst To Greater Tree](problem538.md)
 
+[Problem 796: Rotate String](problem796.md)
+
