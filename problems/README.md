@@ -70,3 +70,5 @@
 
 [Problem 796: Rotate String](problem796.md)
 
+[Problem 530: Minimum Absolute Difference in BST](problem530.md)
+
