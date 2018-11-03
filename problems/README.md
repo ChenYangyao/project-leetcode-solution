@@ -78,3 +78,11 @@
 
 [Problem 717: 1-bit and 2-bit Characters](problem717.md)
 
+[Problem 706: Design Hashmap](problem706.md)
+
+[Problem 783: Minimum Distance Between BST Nodes](problem783.md)
+
+[Problem 453: Minimum Moves To Equal Array Elements](problem453.md)
+
+[Problem 733: Flood Fill](problem733.md)
+
