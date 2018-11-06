@@ -88,3 +88,7 @@
 
 [Problem 404: Sum Of Left Leaves](problem404.md)
 
+[Problem 598: Range Addition II](problem598.md)
+
+[Problem 447: Number of Boomerangs](problem447.md)
+
