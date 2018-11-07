@@ -92,3 +92,5 @@
 
 [Problem 447: Number of Boomerangs](problem447.md)
 
+[Problem 492: Construct the Rectangle](problem492.md)
+
