@@ -1,6 +1,6 @@
-## Problem 122: Best Time To Buy And Sell Stock II
+## Problem 122: Best Time to Buy and Sell Stock II
 
-problem: [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+problem: [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ### Solution
 

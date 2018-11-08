@@ -1,6 +1,6 @@
-## Problem 13: Roman To Integer
+## Problem 13: Roman to Integer
 
-problem: [Roman To Integer](https://leetcode.com/problems/roman-to-integer/)
+problem: [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ### Solution
 

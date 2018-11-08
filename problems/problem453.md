@@ -1,6 +1,6 @@
-## Problem 453: Minimum Moves To Equal Array Elements
+## Problem 453: Minimum Moves to Equal Array Elements
 
-problem: [Minimum Moves To Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)
+problem: [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)
 
 ### Solution
 

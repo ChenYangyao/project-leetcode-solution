@@ -1,6 +1,6 @@
-## Problem 404: Sum Of Left Leaves
+## Problem 404: Sum of Left Leaves
 
-problem: [Sum Of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
+problem: [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
 
 ### Solution
 

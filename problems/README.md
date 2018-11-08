@@ -54,11 +54,11 @@
 
 [Problem 169: Majority Element](problem169.md)
 
-[Problem 237: Delete Node In A Linked List](problem237.md)
+[Problem 237: Delete Node in a Linked List](problem237.md)
 
-[Problem 13: Roman To Integer](problem13.md)
+[Problem 13: Roman to Integer](problem13.md)
 
-[Problem 122: Best Time To Buy And Sell Stock II](problem122.md)
+[Problem 122: Best Time to Buy and Sell Stock II](problem122.md)
 
 [Problem 860: Lemonade Change](problem860.md)
 
@@ -66,7 +66,7 @@
 
 [Problem 217: Contains Duplicate](problem217.md)
 
-[Problem 538: Convert Bst To Greater Tree](problem538.md) (discussion TBD, with problem 897)
+[Problem 538: Convert BST to Greater Tree](problem538.md) (discussion TBD, with problem 897)
 
 [Problem 796: Rotate String](problem796.md)
 
@@ -82,15 +82,17 @@
 
 [Problem 783: Minimum Distance Between BST Nodes](problem783.md)
 
-[Problem 453: Minimum Moves To Equal Array Elements](problem453.md)
+[Problem 453: Minimum Moves to Equal Array Elements](problem453.md)
 
 [Problem 733: Flood Fill](problem733.md)
 
-[Problem 404: Sum Of Left Leaves](problem404.md)
+[Problem 404: Sum of Left Leaves](problem404.md)
 
 [Problem 598: Range Addition II](problem598.md)
 
 [Problem 447: Number of Boomerangs](problem447.md)
 
 [Problem 492: Construct the Rectangle](problem492.md)
+
+[Problem 167: Two Sum II - Input Array is Sorted](problem167.md)
 
