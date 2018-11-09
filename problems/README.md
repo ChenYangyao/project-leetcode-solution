@@ -96,3 +96,5 @@
 
 [Problem 167: Two Sum II - Input Array is Sorted](problem167.md)
 
+[Problem 387: First Unique Character in a String](problem387.md)
+
