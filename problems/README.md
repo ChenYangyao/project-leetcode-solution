@@ -98,3 +98,7 @@
 
 [Problem 387: First Unique Character in a String](problem387.md)
 
+[Problem 697: Degree of an Array](problem697.md)
+
+[Problem 455: Assign Cookies](problem455.md)
+
