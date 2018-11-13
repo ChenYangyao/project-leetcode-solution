@@ -104,3 +104,5 @@
 
 [Problem 108: Convert Sorted Array to Binary Search Tree](problem108.md)
 
+[Problem 506: Relative Ranks](problem506.md)
+
