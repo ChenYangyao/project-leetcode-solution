@@ -4,11 +4,11 @@ class Solution {
     func imageSmoother(_ M: [[Int]]) -> [[Int]] {
         let row = M.count
         let col = M[0].count
-        let c1: Float = 1.0/9.0
-        let c2: Float = 1.0/6.0
-        let c3: Float = 3.0/2.0
         
         if (row > 2 && col > 2) {
+            let c1: Float = 1.0/9.0
+            let c2: Float = 1.0/6.0
+            let c3: Float = 3.0/2.0
             var M = M.compactMap{$0.compactMap{Float($0)}}
             var ans = M
             
@@ -130,3 +130,27 @@ class Solution {
         return ans
     }
 }
+
+protocol sol {
+    func imageSmoother(_ M: [[Int]]) -> [[Int]]
+}
+extension Solution: sol{}
+
+func time_consuming<T: sol>(_ solution_class: T, _ name: String, _ r: Int) {
+    var M = Array(repeating: Array(repeating: 0, count: 1920), count: 1080)
+    for i in 0..<1080 {
+        for j in 0..<1920 {
+            M[i][j] = Int.random(in: 0...255)
+        }
+    }
+    let time_start = DispatchTime.now().uptimeNanoseconds
+    for _ in 1...r {
+        _ = solution_class.imageSmoother(M)
+    }
+    let time_end = DispatchTime.now().uptimeNanoseconds
+    print(name,(time_end-time_start)/1000000,"ms","for \(r) times")
+}
+
+time_consuming(Solution(),"1080p",100)
+
+//1080p 8680 ms for 100 times
