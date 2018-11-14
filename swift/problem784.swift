@@ -130,7 +130,7 @@ class Solution5 {
                 step *= 2
             }
         }
-        return [String](results.compactMap{String($0.compactMap{Character($0)})})
+        return results.compactMap{String($0.compactMap{Character($0)})}
     }
 }
 
@@ -155,7 +155,7 @@ class Solution6 {
                 step *= 2
             }
         }
-        return [String](results.compactMap{String($0)})
+        return results.compactMap{String($0)}
     }
 }
 

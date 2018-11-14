@@ -106,3 +106,5 @@
 
 [Problem 506: Relative Ranks](problem506.md)
 
+[Problem 661: Image Smoother](problem661.md)
+
