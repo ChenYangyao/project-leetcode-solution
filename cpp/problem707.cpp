@@ -26,19 +26,14 @@ public:
         if( p == head ) return -1;
         return p->val;
     }
-
     /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
     void addAtHead(int val) {
-        pointer_type p = new node_type(val, head, head->next);
-        head->next = p;
-        p->next->prev = p;
+        add(val, head, head->next);
     }
 
     /** Append a node of value val to the last element of the linked list. */
     void addAtTail(int val) {
-        pointer_type p = new node_type(val, head->prev, head);
-        head->prev = p;
-        p->prev->next = p;
+        add(val, head->prev, head);
     }
 
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
