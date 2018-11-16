@@ -110,3 +110,5 @@
 
 [Problem 409: Longest Palindrome](problem409.md)
 
+[Problem 268: Missing Number](problem268.md)
+

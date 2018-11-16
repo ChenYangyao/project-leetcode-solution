@@ -11,8 +11,6 @@ class Solution {
             break
         }
         
-        let ans = dic.values.reduce(0,{$0+$1/2})
-        
-        return ans*2 + (haveOdd ? 1 : 0)
+        return dic.values.reduce(0,{$0+$1/2})*2 + (haveOdd ? 1 : 0)
     }
 }
