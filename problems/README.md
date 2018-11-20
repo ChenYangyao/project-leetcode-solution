@@ -118,3 +118,5 @@
 
 [Problem 830: Positions of Large Groups](problem830.md)
 
+[Problem 350: Intersection of Two Arrays II](problem350.md)
+
