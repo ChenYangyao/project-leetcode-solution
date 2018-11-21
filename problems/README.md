@@ -120,3 +120,5 @@
 
 [Problem 350: Intersection of Two Arrays II](problem350.md)
 
+[Problem 543: Diameter of Binary Tree](problem543.md)
+
