@@ -122,3 +122,5 @@
 
 [Problem 543: Diameter of Binary Tree](problem543.md)
 
+[Problem 551: Student Attendance Record I](problem551.md)
+
