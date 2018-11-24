@@ -9,5 +9,7 @@ all: $(exec)
 .PHONY: all
 
 %.out: %.cpp
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $< $(LDLIBS)
+
+problem563.out: BinaryTree.h
 
