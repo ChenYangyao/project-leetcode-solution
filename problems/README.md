@@ -126,3 +126,5 @@
 
 [Problem 121: Best Time to Buy and Sell Stock](problem121.md)
 
+[Problem 628: Maximum Product of Three Numbers](problem628.md)
+
