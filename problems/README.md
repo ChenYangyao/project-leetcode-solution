@@ -124,3 +124,5 @@
 
 [Problem 551: Student Attendance Record I](problem551.md)
 
+[Problem 121: Best Time to Buy and Sell Stock](problem121.md)
+
