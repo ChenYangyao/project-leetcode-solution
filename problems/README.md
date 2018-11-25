@@ -128,3 +128,5 @@
 
 [Problem 628: Maximum Product of Three Numbers](problem628.md)
 
+[Problem 705: Design Hashset](problem705.md)
+
