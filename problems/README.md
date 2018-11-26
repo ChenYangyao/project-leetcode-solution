@@ -130,3 +130,5 @@
 
 [Problem 705: Design Hashset](problem705.md)
 
+[Problem 401: Binary Watch](problem401.md)
+
