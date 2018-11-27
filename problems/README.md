@@ -132,3 +132,5 @@
 
 [Problem 401: Binary Watch](problem401.md)
 
+[Problem 746: Min Cost Climbing Stairs](problem746.md)
+
