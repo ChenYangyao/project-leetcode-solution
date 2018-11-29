@@ -2,15 +2,15 @@
 using namespace std;
 
 /**
- * solution by finding several maximal positive numbers and several minimal
- * negative numbers.
+ * solution by finding biggest positive numbers and smallest negative numbers.
  *
  * This solution can deal with any number of operands specified by nop.
  *
  * The procedure is:
  * - specify number of operands by 'nop'.
- * - in the one-run loop, find biggest nop positive numbers and nop negive numbers,
- *      by the way like the insert-sort (if nop is large enough, we may use heap)
+ * - in the one-run loop, find biggest nop positive numbers and smallest nop
+ *      negive numbers, by the way like the insert-sort (if nop is large
+ *      enough, we may use heap)
  * - find the result in the 2*nop numbers.
  *
  * time - linear with nums.size()
@@ -21,6 +21,7 @@ public:
     const int nop;
     Solution(int _nop = 3):nop(_nop){}
     int maximumProduct(vector<int>& nums) {
+        // find biggest nop numbers, and smallest nop numbers
         int maxs[nop+1]; fill_n( maxs, nop, INT_MIN );
         int mins[nop+1]; fill_n( mins, nop, INT_MAX );
         for(auto num: nums){
@@ -41,6 +42,7 @@ public:
         while( npositive < nop && maxs[npositive] >= 0 ) ++npositive;
         while( nnegative < nop && mins[nnegative] < 0 ) ++nnegative;
 
+        // in the 2*nop numbers, find the result
         int res = INT_MIN;
         for (int i = nop - nnegative; i <= npositive; ++i){
             int tempres = 1;
