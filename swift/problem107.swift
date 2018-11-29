@@ -9,7 +9,7 @@ public class TreeNode {
     }
 }
 
-//Breath-first traversal
+//Breadth-first traversal
 class Solution {
     func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
         if (root == nil) {
