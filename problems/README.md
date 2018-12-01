@@ -140,3 +140,5 @@
 
 [Problem 836: Rectangle Overlap](problem836.md)
 
+[Problem 925: Long Pressed Name](problem925.md)
+
