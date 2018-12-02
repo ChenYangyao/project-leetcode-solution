@@ -142,3 +142,5 @@
 
 [Problem 925: Long Pressed Name](problem925.md)
 
+[Problem 21: Merge Two Sorted Lists](problem21.md)
+
