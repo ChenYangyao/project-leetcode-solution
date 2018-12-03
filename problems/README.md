@@ -144,3 +144,5 @@
 
 [Problem 21: Merge Two Sorted Lists](problem21.md)
 
+[Problem 504: Base 7](problem504.md)
+
