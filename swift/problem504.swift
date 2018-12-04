@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     func convertToBase7(_ num: Int) -> String {
         if (num == 0) {
             return "0"
@@ -17,5 +17,12 @@ class Solution {
         }
         
         return result
+    }
+}
+
+//use built-in function
+class Solution2 {
+    func convertToBase7(_ num: Int) -> String {
+        return String(num,radix:7)
     }
 }

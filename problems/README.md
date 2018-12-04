@@ -146,3 +146,5 @@
 
 [Problem 504: Base 7](problem504.md)
 
+[Problem 458: Poor Pigs](problem458.md)
+
