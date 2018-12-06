@@ -148,3 +148,5 @@
 
 [Problem 458: Poor Pigs](problem458.md)
 
+[Problem 257: Binary Tree Paths](problem257.md)
+
