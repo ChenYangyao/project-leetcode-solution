@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     func maxProfit(_ prices: [Int]) -> Int {
         var min = Int.max; var profit = 0
         
