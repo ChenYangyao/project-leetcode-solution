@@ -152,3 +152,5 @@
 
 [Problem 844: Backspace String Compare](problem844.md)
 
+[Problem 202: Happy Number](problem202.md)
+
