@@ -154,3 +154,5 @@
 
 [Problem 202: Happy Number](problem202.md)
 
+[Problem 674: Longest Continuous Increasing Subsequence](problem674.md)
+
