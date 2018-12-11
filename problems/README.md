@@ -156,3 +156,5 @@
 
 [Problem 674: Longest Continuous Increasing Subsequence](problem674.md)
 
+[Problem 118: Pascals Triangle](problem118.md)
+
