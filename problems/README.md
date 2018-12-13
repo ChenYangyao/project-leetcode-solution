@@ -158,3 +158,5 @@
 
 [Problem 118: Pascals Triangle](problem118.md)
 
+[Problem 744: Find Smallest Letter Greater Than Target](problem744.md)
+
