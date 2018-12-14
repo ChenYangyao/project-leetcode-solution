@@ -160,3 +160,5 @@
 
 [Problem 744: Find Smallest Letter Greater Than Target](problem744.md)
 
+[Problem 720: Longest Word in Dictionary](problem720.md)
+
