@@ -162,3 +162,5 @@
 
 [Problem 720: Longest Word in Dictionary](problem720.md)
 
+[Problem 671: Second Minimum Node in a Binary Tree](problem671.md)
+
