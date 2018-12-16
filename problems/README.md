@@ -164,3 +164,5 @@
 
 [Problem 671: Second Minimum Node in a Binary Tree](problem671.md)
 
+[Problem 27: Remove Element](problem27.md)
+
