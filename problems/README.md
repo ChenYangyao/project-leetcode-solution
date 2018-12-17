@@ -166,3 +166,5 @@
 
 [Problem 27: Remove Element](problem27.md)
 
+[Problem 70: Climbing Stairs](problem70.md)
+
