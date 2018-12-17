@@ -12,7 +12,7 @@ problem: [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 ### Discussion
 
-We try to solve this problem mathematically. First, we consider the possible number of combinations for `k` twos and `n-2k` ones. It is easy to show that the answer is (Imaging we need to put `k` identical balls into `n-2k+1` different boxes)
+We try to solve this problem mathematically. First, we consider the possible number of permutations for `k` twos and `n-2k` ones. It is easy to show that the answer is (Imaging we need to put `k` identical balls into `n-2k+1` different boxes)
 
 ![equation](https://latex.codecogs.com/gif.latex?%7B%7Bn-k%7D%5Cchoose%7Bn-2k%7D%7D).
 
