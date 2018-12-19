@@ -170,3 +170,5 @@
 
 [Problem 415: Add Strings](problem415.md)
 
+[Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem235.md)
+
