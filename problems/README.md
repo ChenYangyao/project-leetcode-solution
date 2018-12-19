@@ -172,3 +172,5 @@
 
 [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem235.md)
 
+[Problem 594: Longest Harmonious Subsequence](problem594.md)
+
