@@ -132,7 +132,7 @@
 
 [Problem 401: Binary Watch](problem401.md)
 
-[Problem 746: Min Cost Climbing Stairs](problem746.md)
+[Problem 746: Min Cost Climbing Stairs](problem746.md)(sparse-connected graph)
 
 [Problem 107: Binary Tree Level Order Traversal II](problem107.md)
 
@@ -162,11 +162,11 @@
 
 [Problem 720: Longest Word in Dictionary](problem720.md)
 
-[Problem 671: Second Minimum Node in a Binary Tree](problem671.md)
+[Problem 671: Second Minimum Node in a Binary Tree](problem671.md)(heap-sort-like algorithm, discussion TBD)
 
 [Problem 27: Remove Element](problem27.md)
 
-[Problem 70: Climbing Stairs](problem70.md)(with discussion)
+[Problem 70: Climbing Stairs](problem70.md)(with discussion, Fibonacci sequence)
 
 [Problem 415: Add Strings](problem415.md)
 
