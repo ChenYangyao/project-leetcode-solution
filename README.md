@@ -16,7 +16,7 @@ Comments and contritbutions are welcomed.
 
 **Summary:** We compare the performance of algorithms (see figure below for an example), try to find possible extensions of the algorithm to other possible problems, and write short *discussion* for some interesting problems and algorithms.
 
-<table border="1"><tr><td><img src="problems/attached/problem784/time.png" width="350"></td></tr></table>
+<table><tr><td><img src="problems/attached/problem784/time.png" width="350"></td></tr></table>
 
 ## Solutions
 
@@ -29,6 +29,7 @@ Person in charge
 **Implemetations**
 
 * [Python](python): Zili Yuan  
+
 * [C++](cpp): Yangyao Chen (homepage: [http://www.chenyangyao.com](http://www.chenyangyao.com))
 
 * [Swift](swift): Young Wu
