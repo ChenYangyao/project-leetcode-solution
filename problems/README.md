@@ -174,3 +174,5 @@
 
 [Problem 594: Longest Harmonious Subsequence](problem594.md)
 
+[Problem 704: Binary Search](problem704.md)
+
