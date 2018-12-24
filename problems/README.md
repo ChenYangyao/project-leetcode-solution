@@ -176,3 +176,7 @@
 
 [Problem 704: Binary Search](problem704.md)
 
+[Problem 53: Maximum Subarray](problem53.md)
+
+[Problem 101: Symmetric Tree](problem101.md)
+

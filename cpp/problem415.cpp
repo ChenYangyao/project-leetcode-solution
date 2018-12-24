@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * aimply add each bits of two number
+ * simply add each bit of two numbers
  */
 class Solution {
 public:
