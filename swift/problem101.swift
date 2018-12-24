@@ -9,7 +9,7 @@ public class TreeNode {
     }
 }
 
-class Solution {
+class Solution1 {
     func isSymmetric(_ root: TreeNode?) -> Bool {
         if (root == nil) {
             return true
@@ -37,5 +37,16 @@ class Solution {
         }
         
         return true
+    }
+}
+
+//nearly the same as problem100
+class Solution2 {
+    func isSymmetric(_ root: TreeNode?) -> Bool {
+        return isMirror(root, root)
+    }
+    
+    func isMirror(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
+        return (p == nil && q == nil) || (p?.val == q?.val) && isMirror(p?.left, q?.right) && isMirror(p?.right, q?.left)
     }
 }
