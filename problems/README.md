@@ -184,3 +184,5 @@
 
 [Problem 83: Remove Duplicates from Sorted List](problem83.md)
 
+[Problem 231: Power of Two](problem231.md)
+
