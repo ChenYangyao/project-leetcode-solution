@@ -186,3 +186,5 @@
 
 [Problem 231: Power of Two](problem231.md)
 
+[Problem 405: Convert a Number to Hexadecimal](problem405.md)
+
