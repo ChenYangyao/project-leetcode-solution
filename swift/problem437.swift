@@ -22,8 +22,7 @@ class Solution {
             return 0
         }
         
-        var currentSum = currentSum
-        currentSum += root!.val
+        let currentSum = currentSum + root!.val
         var ans = sumCount[currentSum - sum, default: 0]
         sumCount[currentSum, default: 0] += 1
         

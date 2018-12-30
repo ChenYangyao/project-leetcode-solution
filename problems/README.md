@@ -190,3 +190,5 @@
 
 [Problem 437: Path Sum III](problem437.md)
 
+[Problem 326: Power of Three](problem326.md)
+
