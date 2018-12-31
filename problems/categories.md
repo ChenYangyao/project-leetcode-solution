@@ -8,7 +8,7 @@
     [Problem 703: Kth Largest Element in a Stream](problem703.md)
 
 * **Stack**
-    <table><tr><td><img src="attached/categories/stack.jpg" height="350"></td></tr></table>  
+    <table><tr><td><img src="attached/categories/stack.jpg" height="200"></td></tr></table>  
 
     [Problem 232: Implement Queue Using Stacks](problem232.md)  
     
