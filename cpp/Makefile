@@ -6,10 +6,15 @@ LDFLAGS =
 
 exec := $(patsubst %.cpp,%.out,$(wildcard %.cpp))
 all: $(exec)
-.PHONY: all
+.PHONY: all tidy
 
 %.out: %.cpp
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $< $(LDLIBS)
+
+tidy:
+	rm *.out
+	echo "remove all exec done!"
+
 
 problem563.out: BinaryTree.h
 

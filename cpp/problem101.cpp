@@ -1,8 +1,7 @@
 #include <mystd.h>
 #include "BinaryTree.h"
 using namespace std;
-typedef MYDS::BinaryTree<int> Tree;
-typedef typename Tree::node_type TreeNode;
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -12,6 +11,9 @@ typedef typename Tree::node_type TreeNode;
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+typedef MYDS::BinaryTree<int> Tree;
+typedef typename Tree::node_type TreeNode;
+
 
 /**
  * determine whether two trees are a mirror, recursively
@@ -84,6 +86,7 @@ public:
 
 
 int main(int argc, char const *argv[]){
+    // example cases in Leetcode website
     vector<int> v = {1,2,2,3,4,4,3}, v2 = {1,2,2,-1,3,-1,3};
     Tree tr( v, -1 ), tr2( v2, -1 );
 
