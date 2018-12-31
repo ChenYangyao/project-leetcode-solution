@@ -192,3 +192,5 @@
 
 [Problem 326: Power of Three](problem326.md)
 
+[Problem 191: Number of 1 Bits](problem191.md)
+
