@@ -176,3 +176,21 @@
 
 [Problem 704: Binary Search](problem704.md)
 
+[Problem 53: Maximum Subarray](problem53.md)
+
+[Problem 101: Symmetric Tree](problem101.md)
+
+[Problem 703: Kth Largest Element in a Stream](problem703.md)
+
+[Problem 83: Remove Duplicates from Sorted List](problem83.md)
+
+[Problem 231: Power of Two](problem231.md)
+
+[Problem 405: Convert a Number to Hexadecimal](problem405.md)
+
+[Problem 437: Path Sum III](problem437.md)
+
+[Problem 326: Power of Three](problem326.md)
+
+[Problem 191: Number of 1 Bits](problem191.md)
+

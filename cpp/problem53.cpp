@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * direct solution ( similar to the question: best time to but and sell stock )
+ * direct solution ( similar to the question: best time to buy and sell stock )
  */
 class Solution {
 public:
