@@ -194,3 +194,9 @@
 
 [Problem 191: Number of 1 Bits](problem191.md)
 
+[Problem 819: Most Common Word](problem819.md)
+
+[Problem 119: Pascals Triangle Ii](problem119.md)
+
+[Problem 232: Implement Queue Using Stacks](problem232.md)
+
