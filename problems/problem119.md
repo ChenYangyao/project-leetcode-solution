@@ -1,6 +1,6 @@
-## Problem 119: Pascals Triangle Ii
+## Problem 119: Pascals Triangle II
 
-problem: [Pascals Triangle Ii](https://leetcode.com/problems/pascals-triangle-ii/)
+problem: [Pascals Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 
 ### Solution
 
