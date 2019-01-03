@@ -32,4 +32,4 @@ Person in charge
 
 * [C++](cpp): Yangyao Chen (homepage: [http://www.chenyangyao.com](http://www.chenyangyao.com))
 
-* [Swift](swift): Young Wu
+* [Swift](swift): Young Wu (homepage: [http://www.tsihyoung.com](http://www.tsihyoung.com))
