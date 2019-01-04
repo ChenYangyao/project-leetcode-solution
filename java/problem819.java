@@ -59,6 +59,6 @@ public class problem819{
          String[] banned={"hit"};
          String temp=test.mostCommonWord(paragraph, banned);
          //System.out.println(temp);
-         //one bug lay in string splitls
+         //one bug lay in string spliting
     }
 }
