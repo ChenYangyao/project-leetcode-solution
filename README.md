@@ -12,11 +12,11 @@ Comments and contritbutions are welcomed.
 
 **Discussion:** Each day we determine which problem is to be solved, discuss the possible solution online, exchange good ideas.
 
-**Coding:** We write code in different languages, use different algorithms, and for each algorithm we also try several implementations.
+**Coding:** We write code in different languages, use different algorithms, and for each algorithm we also try several implementations (see figure 1 below for an example).
 
-**Summary:** We compare the performance of algorithms (see figure below for an example), try to find possible extensions of the algorithm to other possible problems, and write short *discussion* for some interesting problems and algorithms.
+**Summary:** We compare the performance of algorithms (see figure 2 below for an example), try to find possible extensions of the algorithm to other possible problems, and write short *discussion* for some interesting problems and algorithms.
 
-<table><tr><td><img src="problems/attached/problem784/time.png" width="350"></td></tr></table>
+<table><tr><td><img src="problems/attached/categories/bitree.jpg" height="180"></td><td><img src="problems/attached/problem784/time.png" height="180"></td></tr><tr><td>Figure 1. An example of binary tree data structure. For each question, we discuss and try different data structures, to find the best approach for time efficiency, space cost or the blance of two</td><td>Figure 2: An illustration of the comparison of different methods. We quantitatively consider  the efficiency of algorithms for some interesting problem.</td></tr></table>
 
 ## Solutions
 
