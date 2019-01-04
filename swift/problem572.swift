@@ -68,7 +68,7 @@ class Solution1 {
     
     //https://github.com/ChenYangyao/project-leetcode-solution/blob/master/swift/problem100.swift
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        return (p == nil && q == nil) || (p?.val == q?.val) && isSameTree(p?.right, q?.right) && isSameTree(p?.left, q?.left)
+        return (p == nil && q == nil) || (p?.val == q?.val) && isSameTree(p!.right, q!.right) && isSameTree(p!.left, q!.left)
     }
     
     func nodeNumber(_ p: TreeNode?) -> Int {
@@ -97,7 +97,7 @@ class Solution1 {
     //we first determine the number of nodes with repect to root node p. If it is the same as t's, we then judge whether p and s are the same tree.
     //we count the number of nodes w.r.t every nodes in s reversely using stack.
     //swift implementation of cpp version.
-    //https://github.com/ChenYangyao/project-leetcode-solution/blob/master/cpp/problem100.cpp
+    //https://github.com/ChenYangyao/project-leetcode-solution/blob/master/cpp/problem572.cpp
     func isSubtree(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
         if (s == nil) {
             return (t == nil)
@@ -128,6 +128,7 @@ class Solution1 {
                 top.visited = true
                 if (top.p.left != nil) {
                     stack.append(stackItem(top.p.left!,top, false))
+                    //passing subclass instance to superclass is allowed
                 }
                 if (top.p.right != nil) {
                     stack.append(stackItem(top.p.right!,top, true))
@@ -141,18 +142,11 @@ class Solution1 {
 //ref: sample 172 ms submission
 class Solution2 {
     func isSubtree(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
-        if s == nil && t == nil {
-            return true
-        }
-        guard let s = s, let t = t else {
-            return false
-        }
-        let result = isSubtree(s.left, t) || isSubtree(s.right, t)
-        return result || isSameTree(s, t)
+        return (s == nil && t == nil) || ( s != nil && t != nil && (isSameTree(s,t) || isSubtree(s!.left,t) || isSubtree(s!.right,t)))
     }
     
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        return (p == nil && q == nil) || (p?.val == q?.val) && isSameTree(p?.right, q?.right) && isSameTree(p?.left, q?.left)
+        return (p == nil && q == nil) || (p?.val == q?.val) && isSameTree(p!.right, q!.right) && isSameTree(p!.left, q!.left)
     }
 }
 
@@ -166,11 +160,11 @@ var sInput = [Int](repeating: 0, count: 16383)
 var tInput = [Int](repeating: 0, count: 8191)
 
 for i in 0..<16383 {
-    sInput[i] = Int.random(in: 0...1000)
+    sInput[i] = Int.random(in: 0...100)
 }
 
 for i in 0..<8191 {
-    tInput[i] = Int.random(in: 0...1000)
+    tInput[i] = Int.random(in: 0...100)
 }
 
 let s = conversion().a_to_b(sInput)
@@ -185,5 +179,17 @@ func time_consuming<T: sol>(_ solution_class: T, _ name: String, _ r: Int) {
     print(name,(time_end-time_start)/1000000,"ms","for \(r) times")
 }
 
-time_consuming(Solution1(),"optimised",10)
-time_consuming(Solution2(),"brute force",10)
+time_consuming(Solution1(),"optimised",100)
+time_consuming(Solution2(),"brute force",100)
+
+/*
+ brute force method is faster than optimised one on my mac =_=
+ 
+    optimised 692 ms for 100 times
+    brute force 433 ms for 100 times
+ 
+ but it is just the opposite on Leetcode's website.
+    128 ms vs 352 ms
+ 
+ I have no idea about this.
+*/

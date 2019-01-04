@@ -47,6 +47,6 @@ class Solution2 {
     }
     
     func isMirror(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        return (p == nil && q == nil) || (p?.val == q?.val) && isMirror(p?.left, q?.right) && isMirror(p?.right, q?.left)
+        return (p == nil && q == nil) || (p?.val == q?.val) && isMirror(p!.left, q!.right) && isMirror(p!.right, q!.left)
     }
 }
