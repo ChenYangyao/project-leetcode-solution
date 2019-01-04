@@ -1,4 +1,5 @@
-## Leetcode Problems
+#
+Leetcode Problems
 
 [problem 771: Jewels and Stones](problem771.md)
 

@@ -10,6 +10,7 @@ problem: [Pascals Triangle II](https://leetcode.com/problems/pascals-triangle-ii
 
 - [Swift](../swift/problem119.swift)
 
+- [Java](../java/problem119.java)
 ### Discussion
 
 TBD
