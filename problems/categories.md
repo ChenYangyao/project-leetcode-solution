@@ -3,7 +3,7 @@
 **Linear Structure**
 
 * **Heap**
-	
+    
     [Problem 671: Second Minimum Node in a Binary Tree](problem671.md)(heap-sort-like algorithm, discussion TBD)  
     [Problem 703: Kth Largest Element in a Stream](problem703.md)
 
@@ -19,13 +19,15 @@
 **Non-linear structure**
 
 * **Binary Tree**
+    <table><tr><td><img src="attached/categories/bitree.jpg" height="220"></td></tr></table>  
 
-	[Problem 101: Symmetric Tree](problem101.md)  
-    [problem 226 Invert Binary Tree](problem226.md)  
+    [Problem 101: Symmetric Tree](problem101.md)  
+    [problem 226: Invert Binary Tree](problem226.md)  
     [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem235.md)  
     [Problem 257: Binary Tree Paths](problem257.md)  
-    [Problem 437: Path Sum III](problem437.md)	
+    [Problem 437: Path Sum III](problem437.md)  
     [Problem 543: Diameter of Binary Tree](problem543.md)  
+    [Problem 572: Subtree Of Another Tree](problem572.md)  
     [Problem 704: Binary Search](problem704.md)
     
 
