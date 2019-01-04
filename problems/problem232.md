@@ -10,6 +10,8 @@ problem: [Implement Queue Using Stacks](https://leetcode.com/problems/implement-
 
 - [Swift](../swift/problem232.swift)
 
+- [Java](../java/problem232.java)
+
 ### Discussion
 
 TBD

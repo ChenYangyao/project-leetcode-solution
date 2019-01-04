@@ -26,6 +26,7 @@ class ProblemGenerator:
         s += self.getSolution('python','python','py')
         s += self.getSolution('c++','cpp','cpp')
         s += self.getSolution('swift','swift','swift')
+        s += self.getSolution('java','java','java')
         s += "### Discussion\n\nTBD\n\n"
         return s
     def getSolution(self, lang, folder ,postfix):

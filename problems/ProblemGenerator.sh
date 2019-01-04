@@ -39,6 +39,7 @@ printf "### Solution\n\n">>$fname
 printf -- "- [Python](../python/problem$pid.py)\n\n">>$fname
 printf -- "- [C++](../cpp/problem$pid.cpp)\n\n">>$fname
 printf -- "- [Swift](../swift/problem$pid.swift)\n\n">>$fname
+printf -- "- [Java](../java/problem$pid.java)\n\n">>$fname
 printf "### Discussion\n\n" >>$fname
 printf "TBD\n\n" >>$fname
 
