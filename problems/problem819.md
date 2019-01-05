@@ -10,6 +10,8 @@ problem: [Most Common Word](https://leetcode.com/problems/most-common-word/)
 
 - [Swift](../swift/problem819.swift)
 
+- [Java](../java/problem819.java)
+
 ### Discussion
 
 TBD
