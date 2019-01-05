@@ -25,7 +25,7 @@ class Solution1 {
 }
 
 class Solution2 {
-    func isPalindrome(_ x: Int) ->  Bool {
+     func isPalindrome(_ x: Int) ->  Bool {
         if (x < 0) {
             return false
         } else if (x == 0) {
@@ -34,14 +34,15 @@ class Solution2 {
         
         var x = x; var revX = x
         let length = Int(log10(Double(x)))
+        var power = lround(pow(10,Double(length)))
         
         for i in 0..<((length+1)/2) {
-            let tmp = lround(pow(10,Double(length-i)))
-            if (x%10 != revX/tmp) {
+            if (x%10 != revX/power) {
                 return false
             }
             x /= 10
-            revX %= tmp
+            revX %= power
+            power /= 10
         }
         
         return true
