@@ -39,3 +39,8 @@
     
 * **Graph**
 
+    [Problem 198: House Robber](problem198.md)(sparse-connected graph)  
+    [Problem 746: Min Cost Climbing Stairs](problem746.md)(sparse-connected graph)
+
+
+
