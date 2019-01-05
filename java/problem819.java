@@ -1,10 +1,12 @@
 import java.util.*;
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
-        paragraph.toLowerCase();
+        paragraph=paragraph.toLowerCase()+".";
+        //System.out.println(paragraph);
         Map<String, Integer> banned_test = new HashMap<String, Integer>();
         Map<String, Integer> result= new HashMap<String, Integer>();
         for(int i=0;i<banned.length;i++){
+            //System.out.println(banned[i].toLowerCase());
             banned_test.put(banned[i].toLowerCase(),0);
         }
         int beg=0;int end=0;
@@ -15,13 +17,13 @@ class Solution {
                 beg=i;
                 tag=1;
             }
-            if((isSplit(paragraph.charAt(i))||i==size-1)&&tag==1){
+            if(isSplit(paragraph.charAt(i))&&tag==1){
                 end=i-1;
                 tag=2;
             }
             if(tag==2){
-                String temp=paragraph.substring(beg,end);
-                System.out.println(temp);
+                String temp=paragraph.substring(beg,end+1);
+                //System.out.println(temp);
                 if(!banned_test.containsKey(temp)){
                     if(result.containsKey(temp)){
                         result.put(temp,result.get(temp)+1);
@@ -58,7 +60,7 @@ public class problem819{
          String paragraph="Bob hit a ball, the hit BALL flew far after it was hit.";
          String[] banned={"hit"};
          String temp=test.mostCommonWord(paragraph, banned);
-         //System.out.println(temp);
+        System.out.println(temp);
          //one bug lay in string spliting
     }
 }
