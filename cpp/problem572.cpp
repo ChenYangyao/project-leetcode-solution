@@ -1,5 +1,6 @@
 #include <mystd.h>
 #include "BinaryTree.h"
+using namespace MYSTD;
 using namespace std;
 /**
  * Definition for a binary tree node.
@@ -154,6 +155,13 @@ public:
     };
 };
 
+template<typename T, typename...Args>
+void prt_time( string name, T & sol, Args&&... args ){
+	clock_t t1 = clock();
+	//cout << sol.isSubtree( std::forward<Args>(args)... ) << endl;
+	sol.isSubtree( std::forward<Args>(args)... );
+	cout << name << ": " << double(clock() - t1)/CLOCKS_PER_SEC << endl;
+}
 
 int main(int argc, char const *argv[]){
 	Solution sol;
@@ -170,6 +178,16 @@ int main(int argc, char const *argv[]){
 		Tree s( vs, -1 ), t( vt, -1 );
 		cout << sol.isSubtree( s.root(), t.root() ) << endl;
 		cout << sol2.isSubtree( s.root(), t.root() ) << endl;
+	}
+	{
+		int sheight = 25, theight = 21;
+		vector<int> vs( (1 << sheight) - 1, 1), vt( (1 << theight) - 1, 1 ); 
+		vs.back() = 0;
+
+		Tree s( vs, -1 ), t( vt, -1 );
+		cout << "tree size " << vs.size() << ", target size " << vt.size() << endl;
+		prt_time( "Brute-force", sol, s.root(), t.root() );
+		prt_time( "PostOrder", sol2, s.root(), t.root() );
 	}
 	return 0;
 }
