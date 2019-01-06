@@ -1,5 +1,3 @@
-import Foundation
-
 class Solution1 {
     func isPalindrome(_ x: Int) -> Bool {
         if (x < 0) {
@@ -28,15 +26,16 @@ class Solution2 {
      func isPalindrome(_ x: Int) ->  Bool {
         if (x < 0) {
             return false
-        } else if (x == 0) {
+        }
+        if (x == 0) {
             return true
         }
         
         var x = x; var revX = x
-        let length = Int(log10(Double(x)))
-        var power = lround(pow(10,Double(length)))
+        let length = lg(revX)
+        var power = pow(length)
         
-        for i in 0..<((length+1)/2) {
+        for _ in 0..<(length/2) {
             if (x%10 != revX/power) {
                 return false
             }
@@ -46,5 +45,22 @@ class Solution2 {
         }
         
         return true
+    }
+    
+    func lg(_ x: Int) -> Int {
+        var ans = 0; var x = x
+        while (x != 0) {
+            x /= 10
+            ans += 1
+        }
+        return ans
+    }
+    
+    func pow(_ power: Int) -> Int {
+        var ans = 1
+        for _ in 1..<power {
+            ans *= 10
+        }
+        return ans
     }
 }
