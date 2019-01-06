@@ -23,7 +23,7 @@ class Solution1 {
 }
 
 class Solution2 {
-     func isPalindrome(_ x: Int) ->  Bool {
+    func isPalindrome(_ x: Int) ->  Bool {
         if (x < 0) {
             return false
         }
