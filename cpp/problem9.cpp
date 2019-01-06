@@ -57,13 +57,18 @@ public:
 /**
  * an amazing solution
  * Reference: Leetcode user sample
+ * 
+ * modification: 2019/01/07
+ * As suggested by Ziyang, the 'int n' is not safe to contain the digit-reverse of 
+ * large input integer. So we change n to be 'long' (which is 8 bytes in most 
+ * implementations).
  */
 class Solution3 {
 public:
     bool isPalindrome(int x) {
         if( x < 0 ) return false;
-        int _x = x;
-        int n = 0;
+        long _x = x;
+        long n = 0;     // use long instead of int
         while( x ){
             n = n*10 + x%10;
             x /= 10;

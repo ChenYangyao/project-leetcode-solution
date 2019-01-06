@@ -205,5 +205,5 @@ Leetcode Problems
 
 [Problem 9: Palindrome Number](problem9.md)
 
-[Problem 198: House Robber](problem198.md)(sparse-connected graph)
+[Problem 198: House Robber](problem198.md)(sparse-connected graph, with discussion, with extension: robbing analysis)
 
