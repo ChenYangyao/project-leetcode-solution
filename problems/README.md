@@ -207,3 +207,5 @@ Leetcode Problems
 
 [Problem 198: House Robber](problem198.md)(sparse-connected graph, with discussion, with extension: robbing analysis)
 
+[Problem 345: Reverse Vowels of a String](problem345.md)
+
