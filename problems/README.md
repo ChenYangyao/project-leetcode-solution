@@ -209,3 +209,5 @@ Leetcode Problems
 
 [Problem 345: Reverse Vowels of a String](problem345.md)
 
+[Problem 66: Plus One](problem66.md)
+
