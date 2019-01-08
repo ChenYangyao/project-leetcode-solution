@@ -213,3 +213,5 @@ Leetcode Problems
 
 [Problem 35: Search Insert Position](problem35.md)
 
+[Problem 263: Ugly Number](problem263.md)
+
