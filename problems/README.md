@@ -211,3 +211,5 @@ Leetcode Problems
 
 [Problem 66: Plus One](problem66.md)
 
+[Problem 35: Search Insert Position](problem35.md)
+
