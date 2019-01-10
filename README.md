@@ -16,7 +16,9 @@ Comments and contritbutions are welcomed.
 
 **Summary:** We compare the performance of algorithms (see figure 2 below for an example), try to find possible extensions of the algorithm to other possible problems, and write short *discussion* for some interesting problems and algorithms.
 
-<table><tr><td><img src="problems/attached/categories/bitree.jpg" width="350"></td><td><img src="problems/attached/problem784/time.png" width="350"></td></tr><tr><td>Figure 1. An example of binary tree data structure. For each question, we discuss and try different data structures, to find the best approach for time efficiency, space cost or the balance of two</td><td>Figure 2. An illustration of the comparison of different methods. We quantitatively consider  the efficiency of algorithms for some interesting problem.</td></tr></table>
+**Extension:** We apply the methods developed when solving the question to the real world, build more realistic models that can help us to understand the society, the world, and the Universe (see figure 3 below for an example).
+
+<table><tr><td width="250"><img src="problems/attached/categories/bitree.jpg"></td><td width="250"><img src="problems/attached/problem784/time.png" width="150"></td><td width="250"><img src="problems/attached/problem198/distribute.jpg" width="150"></td></tr><tr><td>Figure 1. An example of binary tree data structure. For each question, we discuss and try different data structures, to find the best approach for time efficiency, space cost or the balance of two.</td><td>Figure 2. An illustration of the comparison of different methods in <a href="problems/problem784.md">[problem 784: Letter Case Permutation]</a>. We quantitatively consider  the efficiency of algorithms for some interesting problem.</td><td>Figure 3. An extension of <a href="problems/problem198.md">[problem 198: House Robber].</a> We extend the problem to a more realistic case, considering the possible factors that influence the robbering rate.</td></tr></table>
 
 ## Solutions
 
