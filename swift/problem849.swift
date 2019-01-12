@@ -6,18 +6,16 @@ class Solution {
         for i in 0..<length {
             if (seats[i] == 1) {
                 if (prevIndex == -1) {
-                    maxDistance = i
+                    maxDistance = i*2
                 } else {
-                    maxDistance = max(maxDistance,(i-prevIndex)/2)
+                    maxDistance = max(maxDistance,i-prevIndex)
                 }
                 prevIndex = i
             }
         }
         
-        if (prevIndex != length-1) {
-            maxDistance = max(maxDistance,length-1-prevIndex)
-        }
+        maxDistance /= 2
         
-        return maxDistance
+        return prevIndex == length-1 ? maxDistance : max(maxDistance,length-1-prevIndex)
     }
 }
