@@ -15,10 +15,6 @@ class Solution {
             }
         }
         
-        if (largest >= secondLargest*2) {
-            return largestIndex
-        }
-        
-        return -1
+        return largest >= secondLargest*2 ? largestIndex : -1
     }
 }

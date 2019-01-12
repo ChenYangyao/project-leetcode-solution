@@ -7,7 +7,7 @@ public class ListNode {
         self.val = val
         self.next = nil
     }
- }
+}
 
 //use array to store the list. space et time complexity O(N)
 //seems space for original list is hard to release
