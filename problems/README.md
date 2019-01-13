@@ -223,3 +223,5 @@ Leetcode Problems
 
 [Problem 849: Maximize Distance to Closest Person](problem849.md)
 
+[Problem 724: Find Pivot Index](problem724.md)
+
