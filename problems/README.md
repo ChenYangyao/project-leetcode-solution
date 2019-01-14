@@ -225,3 +225,5 @@ Leetcode Problems
 
 [Problem 724: Find Pivot Index](problem724.md)
 
+[Problem -1: 兔子过河](problem-1.md)
+
