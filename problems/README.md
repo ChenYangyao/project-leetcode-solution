@@ -229,3 +229,5 @@ Leetcode Problems
 
 [Problem 342: Power of Four](problem342.md)
 
+[Problem -2: 均匀整型随机数产生器](problem-2.md)
+
