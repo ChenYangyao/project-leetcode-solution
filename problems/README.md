@@ -227,3 +227,5 @@ Leetcode Problems
 
 [Problem -1: 兔子过河](problem-1.md)
 
+[Problem 342: Power of Four](problem342.md)
+
