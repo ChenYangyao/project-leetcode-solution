@@ -31,7 +31,7 @@
 
 - [Swift](../swift/problem-1.swift)
 
-- [Java](../java/problem-1.java)
+- [Java](../java/problem_1.java)
 
 ### Discussion
 
