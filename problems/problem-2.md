@@ -4,6 +4,8 @@
 
 不同的编程语言有不同的标准库可以实现rand3()，请使用标准库提供的函数模拟rand3()。
 
+感谢袁自力提供题目。
+
 ### Solution
 
 - [Python](../python/problem-2.py)

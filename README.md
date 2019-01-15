@@ -4,6 +4,8 @@
 
 This repository collects the nice solutions to leetcode [Algorithm problems](https://leetcode.com/problemset/algorithms/).
 
+We also provide some self-gathered questions, with negative No. in the problem list.
+
 Authors: Zili Yuan, Yangyao Chen, Young Wu (ranked by random shuffle).
 
 Comments and contritbutions are welcomed.

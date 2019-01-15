@@ -1,5 +1,8 @@
-#
-Leetcode Problems
+# Leetcode and Self-gathered Problems
+
+Positive No.: Leetcode Problems.  
+Negative No.: Self-gathered Problems.
+
 
 [problem 771: Jewels and Stones](problem771.md)
 
