@@ -40,7 +40,8 @@
 * **Graph**
 
     [Problem 198: House Robber](problem198.md)(sparse-connected graph, with discussion, with extension: Robbing Analysis)  
-    [Problem 746: Min Cost Climbing Stairs](problem746.md)(sparse-connected graph)
+    [Problem 746: Min Cost Climbing Stairs](problem746.md)(sparse-connected graph)  
+    [Problem -1: 兔子过河](problem-1.md)(Dijkstra algorithm for shortest path)
 
 
 

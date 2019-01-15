@@ -228,7 +228,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 724: Find Pivot Index](problem724.md)
 
-[Problem -1: 兔子过河](problem-1.md)
+[Problem -1: 兔子过河](problem-1.md)(Dijkstra algorithm for shortest path)
 
 [Problem 342: Power of Four](problem342.md)
 
