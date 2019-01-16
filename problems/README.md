@@ -234,3 +234,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem -2: 均匀整型随机数产生器](problem-2.md)
 
+[Problem 558: Quad Tree Intersection](problem558.md)
+
