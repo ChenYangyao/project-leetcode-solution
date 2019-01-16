@@ -236,5 +236,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 558: Quad Tree Intersection](problem558.md)
 
-[Problem 367: Submissions](problem367.md)
+[Problem 367: Valid Perfect Square](problem367.md)
 

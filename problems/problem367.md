@@ -1,6 +1,6 @@
-## Problem 367: Submissions
+## Problem 367: Valid Perfect Square
 
-problem: [Submissions](https://leetcode.com/problems/valid-perfect-square/submissions/)
+problem: [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 
 ### Solution
 
