@@ -224,9 +224,13 @@ Negative No.: Self-gathered Problems.
 
 [Problem 110: Balanced Binary Tree](problem110.md)
 
+[Problem 724: Find Pivot Index](problem724.md)
+
 [Problem 849: Maximize Distance to Closest Person](problem849.md)
 
-[Problem 724: Find Pivot Index](problem724.md)
+[Problem 482: License Key Formatting](problem482.md)
+
+[Problem 1: Two Sum](problem1.md)
 
 [Problem -1: 兔子过河](problem-1.md)(Dijkstra algorithm for shortest path)
 
@@ -237,4 +241,8 @@ Negative No.: Self-gathered Problems.
 [Problem 558: Quad Tree Intersection](problem558.md)
 
 [Problem 367: Valid Perfect Square](problem367.md)
+
+[Problem 459: Repeated Substring Pattern](problem459.md)
+
+[Problem 26: Remove Duplicates From Sorted Array](problem26.md)
 
