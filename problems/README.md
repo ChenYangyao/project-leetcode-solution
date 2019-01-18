@@ -246,3 +246,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 26: Remove Duplicates From Sorted Array](problem26.md)
 
+[Problem 38: Count And Say](problem38.md)
+
+[Problem 743: Network Delay Time](problem743.md)
+
