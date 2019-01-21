@@ -1,7 +1,15 @@
 /*
+update (using methond combineSameNode())
+56 / 58 test cases passed. 
+*/
+
+/*
 !!!!!!!!!bug still exist!!!!!!!!!!!!!!!! 
 leetcode test results: only 27 / 58 test cases passed
 */
+
+
+
 
 import java.util.Stack;
 // Definition for a QuadTree node.
@@ -155,8 +163,31 @@ class Solution {
             }
 
         }
+        st1.push(root);
+        boolean tag=false;;
+        while(true){
+            if(st1.isEmpty()){
+                if(!tag){
+                    break;
+                }else{
+                    st1.push(root);
+                }
+            }
+            tag=false;
+            Node temp=st1.peek();
+            if(temp!=null){
+                tag=combineSameNode(temp);
+                st1.pop();
+                st1.push(temp.bottomRight);
+                st1.push(temp.bottomLeft);
+                st1.push(temp.topRight);
+                st1.push(temp.topLeft);
+            }else{
+                st1.pop();
+            }
+        }
         /*del node with same child*/
-   
+        /*
             st1.push(root);
             while(!st1.isEmpty()){
                 Node temp=st1.peek();
@@ -185,8 +216,27 @@ class Solution {
                     st1.push(temp.topLeft);
                 }
             }
-        
+        */
+
         return root;
+    }
+    public static boolean combineSameNode(Node node){
+        if(node.isLeaf){
+            return false;
+        }else if(node.bottomLeft.isLeaf
+        &&node.bottomRight.isLeaf
+        &&node.topLeft.isLeaf
+        &&node.topRight.isLeaf){
+            if(node.bottomLeft.val==node.bottomRight.val
+            &&node.bottomLeft.val==node.topLeft.val
+            &&node.bottomLeft.val==node.topRight.val){
+                node.isLeaf=true;node.val=node.bottomLeft.val;
+                node.topLeft=null;node.topRight=null;
+                node.bottomLeft=null;node.bottomRight=null;
+                return true;
+            }
+        }
+        return false;
     }
     public static byte valOfNode(Node node){
         if(node.isLeaf){
