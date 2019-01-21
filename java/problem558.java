@@ -8,9 +8,6 @@ update (using methond combineSameNode())
 leetcode test results: only 27 / 58 test cases passed
 */
 
-
-
-
 import java.util.Stack;
 // Definition for a QuadTree node.
 class Node {
