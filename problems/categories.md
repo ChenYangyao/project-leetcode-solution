@@ -38,10 +38,12 @@
     [Problem 819: Most Common Word](problem819.md)  
     
 * **Graph**
-
+    [Problem -1: 兔子过河](problem-1.md)(Dijkstra algorithm for shortest path)   
     [Problem 198: House Robber](problem198.md)(sparse-connected graph, with discussion, with extension: Robbing Analysis)  
+    [Problem 743: Network Delay Time](problem743.md)(Dijkstra algorithm for shortest path)  
     [Problem 746: Min Cost Climbing Stairs](problem746.md)(sparse-connected graph)  
-    [Problem -1: 兔子过河](problem-1.md)(Dijkstra algorithm for shortest path)
+    
+
 
 
 

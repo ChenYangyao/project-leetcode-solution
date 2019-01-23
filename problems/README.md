@@ -70,7 +70,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 217: Contains Duplicate](problem217.md)
 
-[Problem 538: Convert BST to Greater Tree](problem538.md) (discussion TBD, with problem 897)
+[Problem 538: Convert BST to Greater Tree](problem538.md)(discussion TBD, with problem 897)
 
 [Problem 796: Rotate String](problem796.md)
 
@@ -248,7 +248,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 38: Count And Say](problem38.md)
 
-[Problem 743: Network Delay Time](problem743.md)
+[Problem 743: Network Delay Time](problem743.md)(Dijkstra algorithm for shortest path)
 
 [Problem 970: Powerful Integers](problem970.md)
 
