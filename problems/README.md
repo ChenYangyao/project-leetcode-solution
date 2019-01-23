@@ -250,3 +250,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 743: Network Delay Time](problem743.md)
 
+[Problem 970: Powerful Integers](problem970.md)
+
