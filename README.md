@@ -24,11 +24,9 @@ Comments and contritbutions are welcomed.
 
 ## Solutions
 
-Person in charge
+All problems are ranked by their difficulty. See the **[Full Problem List](problems/README.md)**.
 
-**[Problem List](problems/README.md):** in-turn
-
-* Problems are categorized according to their associated data structures. See [Problem Categories](problems/categories.md)
+Some of the problems are tightly connected with specific data structures. We categorized them according to the data structures used in solutions. See **[Problem Categories](problems/categories.md)**.
 
 **Implemetations**
 
@@ -37,3 +35,5 @@ Person in charge
 * [C++](cpp): Yangyao Chen (homepage: [http://www.chenyangyao.com](http://www.chenyangyao.com))
 
 * [Swift](swift): Young Wu (homepage: [http://www.tsihyoung.com](http://www.tsihyoung.com))
+
+* [Java](java): Xingchen Liu
