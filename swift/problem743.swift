@@ -1,15 +1,7 @@
 class Solution {
-    struct link {
-        var target: Int
-        var delay: Int
-        
-        init(_ target: Int, _ delay: Int) {
-            self.target = target
-            self.delay = delay
-        }
-    }
+    typealias link = (target: Int, delay: Int)
     
-    struct node {
+    private class node {
         var distance = Int.max
         var next = [link]()
     }
@@ -23,7 +15,7 @@ class Solution {
         }
         
         for time in times {
-            dict[time[0]]!.next.append(link(time[1],time[2]))
+            dict[time[0]]!.next.append((time[1],time[2]))
         }
         
         dict[K]!.distance = 0
@@ -32,13 +24,17 @@ class Solution {
             var shortestDist = Int.max; var shortestIndex = 0
             for index in visited {
                 let tmpNode = dict[index]!
+                var counter = 0
                 for connectedNodes in tmpNode.next {
                     let tmpIndex = connectedNodes.target
                     if visited.contains(tmpIndex) {
+                        _ = tmpNode.next.remove(at: counter)
                         continue
                     }
+                    counter += 1
                     let tmpDist = connectedNodes.delay + tmpNode.distance
                     let prevDist = dict[tmpIndex]!.distance
+                    
                     if (tmpDist < prevDist) {
                         dict[tmpIndex]!.distance = tmpDist
                     }
