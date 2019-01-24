@@ -252,3 +252,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 970: Powerful Integers](problem970.md)
 
+[Problem 501: Find Mode In Binary Search Tree](problem501.md)
+
+[Problem 643: Maximum Average Subarray I](problem643.md)
+
