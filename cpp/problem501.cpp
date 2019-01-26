@@ -17,7 +17,7 @@ typedef typename Tree::node_type TreeNode;
 
 
 /**
- * olution by in-order DFS
+ * Solution by in-order DFS
  * 
  * To minimize the memory cost, we find the modes by two runs of DFS.
  * The first run gives number of occurance of mode elements.
