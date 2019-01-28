@@ -258,3 +258,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 225: Implement Stack Using Queues](problem225.md)
 
+[Problem 67: Add Binary](problem67.md)
+
