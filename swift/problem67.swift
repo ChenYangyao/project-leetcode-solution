@@ -8,7 +8,7 @@ class Solution {
         }
         
         while !a.isEmpty {
-            let digit1 = b.isEmpty ? false : b.popLast() == "1"
+            let digit1 = b.popLast() == "1"
             let digit2 = a.popLast() == "1"
             ans =  ((digit1 != digit2) != carry ? "1" : "0") + ans
             carry = (digit1&&digit2)||(digit1&&carry)||(digit2&&carry)
