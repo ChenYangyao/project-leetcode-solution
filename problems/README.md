@@ -256,3 +256,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 643: Maximum Average Subarray I](problem643.md)
 
+[Problem 225: Implement Stack Using Queues](problem225.md)
+
