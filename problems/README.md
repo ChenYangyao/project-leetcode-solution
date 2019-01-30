@@ -262,3 +262,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 441: Arranging Coins](problem441.md)
 
+[Problem 172: Factorial Trailing Zeroes](problem172.md)
+
