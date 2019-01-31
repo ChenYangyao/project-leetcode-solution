@@ -266,3 +266,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 112: Path Sum](problem112.md)
 
+[Problem 443: String Compression](problem443.md)
+
