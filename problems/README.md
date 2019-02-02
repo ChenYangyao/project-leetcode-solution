@@ -270,3 +270,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 434: Number of Segments in a String](problem434.md)
 
+[Problem 205: Isomorphic Strings](problem205.md)
+
