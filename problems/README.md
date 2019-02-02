@@ -268,3 +268,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 443: String Compression](problem443.md)
 
+[Problem 434: Number of Segments in a String](problem434.md)
+
