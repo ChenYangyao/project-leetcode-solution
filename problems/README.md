@@ -276,3 +276,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 438: Find All Anagrams in a String](problem438.md)
 
+[Problem 20: Valid Parentheses](problem20.md)
+
+[Problem 141: Linked List Cycle](problem141.md)
+
