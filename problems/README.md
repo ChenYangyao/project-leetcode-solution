@@ -280,3 +280,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 141: Linked List Cycle](problem141.md)
 
+[Problem 155: Min Stack](problem155.md)
+
