@@ -3,7 +3,6 @@ class Solution1 {
         var counter = 0; let length = nums.count
         
         //we don't delete elements equal to val in situ, since remove(at: ) has time complexity O(N)
-        //also, enumerated() will actually consume O(N) space thus should be abandoned
         for i in 0..<length {
             if (nums[i] == val) {
                 nums.swapAt(i,counter)

@@ -1,6 +1,6 @@
 class Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        var length = nums.count
+        let length = nums.count
         
         if (length == 0) {
             return 0

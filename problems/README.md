@@ -264,3 +264,21 @@ Negative No.: Self-gathered Problems.
 
 [Problem 172: Factorial Trailing Zeroes](problem172.md)
 
+[Problem 112: Path Sum](problem112.md)
+
+[Problem 443: String Compression](problem443.md)
+
+[Problem 434: Number of Segments in a String](problem434.md)
+
+[Problem 205: Isomorphic Strings](problem205.md)
+
+[Problem 303: Range Sum Query - Immutable](problem303.md)
+
+[Problem 438: Find All Anagrams in a String](problem438.md)
+
+[Problem 20: Valid Parentheses](problem20.md)
+
+[Problem 141: Linked List Cycle](problem141.md)
+
+[Problem 155: Min Stack](problem155.md)
+
