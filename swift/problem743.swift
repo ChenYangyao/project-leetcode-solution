@@ -1,3 +1,4 @@
+//less memory cost
 class Solution1 {
     typealias link = (target: Int, delay: Int)
     
@@ -29,19 +30,20 @@ class Solution1 {
                     let tmpIndex = connectedNodes.target
                     //remove link once visited
                     if visited.contains(tmpIndex) {
+                        //O(n) time
                         _ = tmpNode.next.remove(at: counter)
-                        continue
-                    }
-                    counter += 1
-                    let tmpDist = connectedNodes.delay + tmpNode.distance
-                    let prevDist = dict[tmpIndex]!.distance
-                    
-                    if (tmpDist < prevDist) {
-                        dict[tmpIndex]!.distance = tmpDist
-                    }
-                    if (tmpDist < shortestDist) {
-                        shortestDist = tmpDist
-                        shortestIndex = tmpIndex
+                    } else {
+                        counter += 1
+                        let tmpDist = connectedNodes.delay + tmpNode.distance
+                        let prevDist = dict[tmpIndex]!.distance
+                        
+                        if (tmpDist < prevDist) {
+                            dict[tmpIndex]!.distance = tmpDist
+                        }
+                        if (tmpDist < shortestDist) {
+                            shortestDist = tmpDist
+                            shortestIndex = tmpIndex
+                        }
                     }
                 }
             }
@@ -61,7 +63,7 @@ class Solution1 {
     }
 }
 
-//use linked list to speed up deleting visited link
+//use linked list to speed up remove operation
 class Solution2 {
     private class link {
         var target: Int
@@ -99,31 +101,39 @@ class Solution2 {
             var shortestDist = Int.max; var shortestIndex = 0
             for index in visited {
                 let tmpNode = dict[index]!
+                
                 var links = tmpNode.linked
+                while (links != nil && visited.contains(links!.target)) {
+                    links = links!.next
+                }
+                tmpNode.linked = links
+                var prev: link? = nil
+                var firstNode = true
+                
                 while (links != nil) {
                     let tmpIndex = links!.target
                     if visited.contains(tmpIndex) {
-                        //ref: problem237
-                        if (links!.next == nil) {
+                        if firstNode {
+                            tmpNode.linked = nil
                             links = nil
                         } else {
-                            let tmpList = links!.next!
-                            links!.target = tmpList.target
-                            links!.delay = tmpList.delay
-                            links!.next = tmpList.next
+                            prev!.next = links?.next
+                            links = links?.next
                         }
-                        continue
+                    } else {
+                        let tmpDist = links!.delay + tmpNode.distance
+                        let prevDist = dict[tmpIndex]!.distance
+                        if (tmpDist < prevDist) {
+                            dict[tmpIndex]!.distance = tmpDist
+                        }
+                        if (tmpDist < shortestDist) {
+                            shortestDist = tmpDist
+                            shortestIndex = tmpIndex
+                        }
+                        prev = links
+                        links = links!.next
                     }
-                    let tmpDist = links!.delay + tmpNode.distance
-                    let prevDist = dict[tmpIndex]!.distance
-                    if (tmpDist < prevDist) {
-                        dict[tmpIndex]!.distance = tmpDist
-                    }
-                    if (tmpDist < shortestDist) {
-                        shortestDist = tmpDist
-                        shortestIndex = tmpIndex
-                    }
-                    links = links!.next
+                    firstNode = false
                 }
             }
             if (shortestIndex == 0) {
