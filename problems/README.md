@@ -286,3 +286,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 203: Remove Linked List Elements](problem203.md)
 
+[Problem 840: Magic Squares in Grid](problem840.md)
+
