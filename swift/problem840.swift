@@ -20,15 +20,11 @@ class Solution {
             return 0
         }
         
-        func magic(_ x: Int, _ y: Int) -> Bool {
-            return (corner[grid[x][y]] == grid[x+2][y+2] && corner[grid[x+2][y]] == grid[x][y+2] && side[grid[x+1][y]] == grid[x+1][y+2] && side[grid[x][y+1]] == grid[x+2][y+1] && sum[grid[x][y]] == grid[x][y+1] + grid[x+1][y] && grid[x][y] != grid[x][y+2] && grid[x][y] != grid[x+2][y])
-        }
-        
         var ans = 0
         
         for x in 0..<(row - 2) {
             for y in 0..<(col - 2) {
-                if magic(x,y) {
+                if (corner[grid[x][y]] == grid[x+2][y+2] && corner[grid[x+2][y]] == grid[x][y+2] && side[grid[x+1][y]] == grid[x+1][y+2] && side[grid[x][y+1]] == grid[x+2][y+1] && sum[grid[x][y]] == grid[x][y+1] + grid[x+1][y] && grid[x][y] != grid[x][y+2] && grid[x][y] != grid[x+2][y]) {
                     ans += 1
                 }
             }

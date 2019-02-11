@@ -288,3 +288,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 840: Magic Squares in Grid](problem840.md)
 
+[Problem 941: Valid Mountain Array](problem941.md)
+
