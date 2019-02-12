@@ -296,3 +296,13 @@ Negative No.: Self-gathered Problems.
 
 [Problem 219: Contains Duplicate Ii](problem219.md)
 
+[Problem 290: Word Pattern](problem290.md)
+
+[Problem 914: X Of A Kind In A Deck Of Cards](problem914.md)
+
+[Problem 680: Valid Palindrome II](problem680.md)
+
+[Problem 507: Perfect Number](problem507.md)
+
+[Problem 687: Longest Univalue Path](problem687.md)
+
