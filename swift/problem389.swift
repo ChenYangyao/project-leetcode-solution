@@ -17,7 +17,7 @@ extension String {
 
 class Solution1 {
     func findTheDifference(_ s: String, _ t: String) -> Character {
-        return Character(UnicodeScalar((t.sum() - s.sum()))!)
+        return Character(Unicode.Scalar((t.sum() - s.sum()))!)
     }
 }
 
