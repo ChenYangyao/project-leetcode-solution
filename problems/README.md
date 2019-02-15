@@ -306,3 +306,9 @@ Negative No.: Self-gathered Problems.
 
 [Problem 687: Longest Univalue Path](problem687.md)
 
+[Problem 949: Largest Time For Given Digits](problem949.md)
+
+[Problem 14: Longest Common Prefix](problem14.md)
+
+[Problem 633: Sum Of Square Numbers](problem633.md)
+
