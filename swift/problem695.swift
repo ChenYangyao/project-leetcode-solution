@@ -5,7 +5,7 @@ class Solution1 {
     private var row = 0
     private var col = 0
     
-    func area(_ r: Int, _ c: Int, _ grid: inout [[Int]]) -> Int{
+    private func area(_ r: Int, _ c: Int, _ grid: inout [[Int]]) -> Int{
         if (r<0 || r>row || c<0 || c>col || grid[r][c] == 0) {
             return 0
         }

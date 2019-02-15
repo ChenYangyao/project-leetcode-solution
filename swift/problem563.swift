@@ -12,8 +12,12 @@ public class TreeNode {
 //ref: https://leetcode.com/problems/binary-tree-tilt/solution/
 class Solution {
     private var tilt = 0
+    
     func findTilt(_ root: TreeNode?) -> Int {
         _ = diff(root)
+        defer {
+            tilt = 0
+        }
         return tilt
     }
     

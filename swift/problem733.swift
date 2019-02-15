@@ -17,7 +17,7 @@ class Solution {
         return image
     }
     
-    func fill(_ image: inout [[Int]], _ sr: Int, _ sc: Int) {
+    private func fill(_ image: inout [[Int]], _ sr: Int, _ sc: Int) {
         image[sr][sc] = _new
         if (sr < row && image[sr + 1][sc] == _old) {
             fill(&image, sr + 1, sc)

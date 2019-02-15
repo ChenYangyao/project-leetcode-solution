@@ -25,6 +25,9 @@ class Solution {
     
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
         _ = height(root)
+        defer {
+            ans = 0
+        }
         return ans
     }
 }
