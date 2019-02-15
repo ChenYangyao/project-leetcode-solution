@@ -75,7 +75,7 @@ class Solution2 {
 }
 
 //visit characters in string directly using String.Index
-//slowest solution. may due to s.indeces[]?
+//slowest solution. may due to s.indices[]?
 class Solution3 {
     func countBinarySubstrings(_ s: String) -> Int {
         var s = s

@@ -1,6 +1,6 @@
-## Problem 914: X Of A Kind In A Deck Of Cards
+## Problem 914: X of a Kind in a Deck of Cards
 
-problem: [X Of A Kind In A Deck Of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+problem: [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
 ### Solution
 

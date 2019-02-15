@@ -1,6 +1,6 @@
-## Problem 219: Contains Duplicate Ii
+## Problem 219: Contains Duplicate II
 
-problem: [Contains Duplicate Ii](https://leetcode.com/problems/contains-duplicate-ii/)
+problem: [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 ### Solution
 

@@ -33,11 +33,8 @@ class Solution {
     //Integer factorization
     private func fact(_ n: inout Int) -> Set<Int> {
         var ans = Set<Int>(); var i = 2
-        while (i <= n) {
-            while (n != i) {
-                if (n%i != 0) {
-                    break
-                }
+        while (i*i <= n) {
+            while (n != i && n%i == 0) {
                 ans.insert(i)
                 n /= i
             }

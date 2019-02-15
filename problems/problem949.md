@@ -1,6 +1,6 @@
-## Problem 949: Largest Time For Given Digits
+## Problem 949: Largest Time for Given Digits
 
-problem: [Largest Time For Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
+problem: [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)
 
 ### Solution
 

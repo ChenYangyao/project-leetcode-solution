@@ -294,11 +294,11 @@ Negative No.: Self-gathered Problems.
 
 [Problem 88: Merge Sorted Array](problem88.md)
 
-[Problem 219: Contains Duplicate Ii](problem219.md)
+[Problem 219: Contains Duplicate II](problem219.md)
 
 [Problem 290: Word Pattern](problem290.md)
 
-[Problem 914: X Of A Kind In A Deck Of Cards](problem914.md)
+[Problem 914: X of a Kind in a Deck of Cards](problem914.md)
 
 [Problem 680: Valid Palindrome II](problem680.md)
 
@@ -306,9 +306,9 @@ Negative No.: Self-gathered Problems.
 
 [Problem 687: Longest Univalue Path](problem687.md)
 
-[Problem 949: Largest Time For Given Digits](problem949.md)
+[Problem 949: Largest Time for Given Digits](problem949.md)
 
 [Problem 14: Longest Common Prefix](problem14.md)
 
-[Problem 633: Sum Of Square Numbers](problem633.md)
+[Problem 633: Sum of Square Numbers](problem633.md)
 
