@@ -31,7 +31,7 @@ class Solution1 {
     }
 }
 
-//implement of UFS (ref to cpp version) without using pointer
+//implementation of UFS (ref to cpp version) without using pointer
 class Solution2 {
     private var row = 0
     private var col = 0
