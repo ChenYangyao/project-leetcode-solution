@@ -312,3 +312,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 633: Sum of Square Numbers](problem633.md)
 
+[Problem 69: Sqrt(x)](problem69.md)
+
