@@ -34,13 +34,17 @@ class Solution {
     private func fact(_ n: inout Int) -> Set<Int> {
         var ans = Set<Int>(); var i = 2
         while (i*i <= n) {
-            while (n != i && n%i == 0) {
+            if (n%i == 0) {
                 ans.insert(i)
-                n /= i
+                while (n%i == 0) {
+                    n/=i
+                }
             }
             i += 1
         }
-        ans.insert(n)
+        if (n != 1) {
+            ans.insert(n)
+        }
         return ans
     }
 }

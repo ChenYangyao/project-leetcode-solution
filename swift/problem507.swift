@@ -33,7 +33,7 @@ class Solution2 {
     private var length = 0
     
     func checkPerfectNumber(_ num: Int) -> Bool {
-        if (num < 2) {
+        if (num < 6) {
             return false
         }
         
@@ -53,19 +53,17 @@ class Solution2 {
         
         while (i*i <= n) {
             var multi = UInt8(0)
-            while (n != i && n%i == 0) {
-                multi += 1
-                n /= i
-            }
-            if (multi != 0) {
+            if (n%i == 0) {
+                while (n%i == 0) {
+                    multi += 1
+                    n /= i
+                }
                 factors.append((i,multi))
             }
             i += 1
         }
         
-        if (factors.last?.base == n) {
-            factors[factors.count-1].multi += 1
-        } else {
+        if (n != 1) {
             factors.append((n,1))
         }
     }
