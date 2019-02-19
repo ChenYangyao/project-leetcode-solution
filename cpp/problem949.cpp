@@ -6,11 +6,11 @@ using namespace std;
  * determine the largest time by trying minute and seconds decendingly
  * e.g. for A = {2,3,0,6}: 
  * 1. Sort it to A = {6,3,2,0}.
- * 2. Find the largest tens-digit for minite, it is 2. If not found, return "".
- * 3. Find the largest units-digit for minite, it is 3 (not 6). If not found, 
+ * 2. Find the largest tens-digit for hours, it is 2. If not found, return "".
+ * 3. Find the largest units-digit for hours, it is 3 (not 6). If not found, 
  *      goes back to step 2 but search after the largest tens-digit ever found.
- * 4. combine remain numbers, that is, 6 and 0, into a largest seconds, it is 
- *      06. If not possible, goes back to step 2 but search after the largest 
+ * 4. combine remaining numbers, that is, 6 and 0, into a largest minutes, it 
+ *      is 06. If not possible, goes back to step 2 but search after the largest 
  *      tens-digit ever found.
  *
  * Author: Yangyao, 2019/02/15
