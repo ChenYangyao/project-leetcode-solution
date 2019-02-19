@@ -1,6 +1,6 @@
-## Problem 984: String Without Aaa Or Bbb
+## Problem 984: String Without AAA Or BBB
 
-problem: [String Without Aaa Or Bbb](https://leetcode.com/problems/string-without-aaa-or-bbb/)
+problem: [String Without AAA Or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)
 
 ### Solution
 

@@ -316,7 +316,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 160: Intersection Of Two Linked Lists](problem160.md)
 
-[Problem 984: String Without Aaa Or Bbb](problem984.md)
+[Problem 984: String Without AAA Or BBB](problem984.md)
 
 [Problem 754: Reach A Number](problem754.md)
 
