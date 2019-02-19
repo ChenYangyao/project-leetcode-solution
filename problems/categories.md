@@ -10,24 +10,31 @@
 * **Stack**
     <table><tr><td><img src="attached/categories/stack.jpg" height="200"></td></tr></table>  
 
-    [Problem 232: Implement Queue Using Stacks](problem232.md)  
+    [Problem 232: Implement Queue Using Stacks](problem232.md)   
+    [Problem 155: Min Stack](problem155.md)
     
 * **List**
 
-    [Problem 83: Remove Duplicates from Sorted List](problem83.md)
+    [Problem 83: Remove Duplicates from Sorted List](problem83.md)  
+    [Problem 141: Linked List Cycle](problem141.md)   
+    [Problem 160: Intersection Of Two Linked Lists](problem160.md)  
+    [Problem 203: Remove Linked List Elements](problem203.md)  
+    [Problem 234: Palindrome Linked List](problem234.md)  
 
 **Non-linear structure**
 
 * **Binary Tree**
     <table><tr><td><img src="attached/categories/bitree.jpg" height="220"></td></tr></table>  
 
-    [Problem 101: Symmetric Tree](problem101.md)  
+    [Problem 101: Symmetric Tree](problem101.md)   
+    [Problem 111: Minimum Depth of Binary Tree](problem111.md)  
     [problem 226: Invert Binary Tree](problem226.md)  
     [Problem 235: Lowest Common Ancestor of a Binary Search Tree](problem235.md)  
     [Problem 257: Binary Tree Paths](problem257.md)  
     [Problem 437: Path Sum III](problem437.md)  
     [Problem 543: Diameter of Binary Tree](problem543.md)  
-    [Problem 572: Subtree Of Another Tree](problem572.md)  
+    [Problem 572: Subtree Of Another Tree](problem572.md)    
+    [Problem 687: Longest Univalue Path](problem687.md)  
     [Problem 704: Binary Search](problem704.md)
     
 

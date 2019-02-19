@@ -312,5 +312,21 @@ Negative No.: Self-gathered Problems.
 
 [Problem 633: Sum of Square Numbers](problem633.md)
 
+[Problem 58: Length of Last Word](problem58.md)
+
+[Problem 160: Intersection Of Two Linked Lists](problem160.md)
+
+[Problem 984: String Without AAA Or BBB](problem984.md)
+
+[Problem 754: Reach A Number](problem754.md)
+
+[Problem 686: Repeated String Match](problem686.md)
+
+[Problem 28: Implement Strstr](problem28.md)
+
+[Problem 475: Heaters](problem475.md)
+
+[Problem 605: Can Place Flowers](problem605.md)
+
 [Problem 69: Sqrt(x)](problem69.md)
 
