@@ -12,6 +12,9 @@ class Solution {
                 output = word
             }
         }
+        defer {
+            plate = [Int:UInt]()
+        }
         return output
     }
     

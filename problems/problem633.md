@@ -1,6 +1,6 @@
-## Problem 633: Sum Of Square Numbers
+## Problem 633: Sum of Square Numbers
 
-problem: [Sum Of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
+problem: [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)
 
 ### Solution
 
