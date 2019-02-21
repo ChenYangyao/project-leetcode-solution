@@ -1,6 +1,6 @@
-## Problem 28: Implement Strstr
+## Problem 28: Implement strStr()
 
-problem: [Implement Strstr](https://leetcode.com/problems/implement-strstr/)
+problem: [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
 ### Solution
 

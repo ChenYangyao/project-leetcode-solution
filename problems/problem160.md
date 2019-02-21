@@ -1,6 +1,6 @@
-## Problem 160: Intersection Of Two Linked Lists
+## Problem 160: Intersection of Two Linked Lists
 
-problem: [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+problem: [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 ### Solution
 
