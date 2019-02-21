@@ -21,6 +21,10 @@
     [Problem 203: Remove Linked List Elements](problem203.md)  
     [Problem 234: Palindrome Linked List](problem234.md)  
 
+* **String**
+
+    [Problem 686: Repeated String Match](problem686.md)(Rolling hash algorihm, with discussion)  
+
 **Non-linear structure**
 
 * **Binary Tree**

@@ -320,7 +320,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 754: Reach A Number](problem754.md)
 
-[Problem 686: Repeated String Match](problem686.md)
+[Problem 686: Repeated String Match](problem686.md)(Rolling hash algorihm, with discussion)
 
 [Problem 28: Implement Strstr](problem28.md)
 

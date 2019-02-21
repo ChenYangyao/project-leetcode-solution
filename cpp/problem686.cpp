@@ -41,6 +41,23 @@ public:
     }
 };
 
+
+class Solution3 {
+    int repeatedStringMatch(string A, string B) {
+
+    }
+    char getCycle(string & s, int i){
+        return s[ i%s.size() ];
+    }
+    bool identical(string &A, string &B, int beg){
+        for(int i=0, n=B.size(); i<n; ++i){
+            if( B[i] != getCycle(A, beg+i) ) return false;
+        }
+        return true;
+    }
+    int 
+};
+
 int main(int argc, char const *argv[]){
     Solution sol;
     Solution2 sol2;
