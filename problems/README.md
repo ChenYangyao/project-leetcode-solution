@@ -314,17 +314,19 @@ Negative No.: Self-gathered Problems.
 
 [Problem 58: Length of Last Word](problem58.md)
 
-[Problem 160: Intersection of Two Linked Lists](problem160.md)
+[Problem 160: Intersection Of Two Linked Lists](problem160.md)
 
-[Problem 984: String Without AAA or BBB](problem984.md)
+[Problem 984: String Without AAA Or BBB](problem984.md)
 
-[Problem 754: Reach a Number](problem754.md)
+[Problem 754: Reach A Number](problem754.md)
 
 [Problem 686: Repeated String Match](problem686.md)(Rolling hash algorihm, with discussion)
 
-[Problem 28: Implement strStr()](problem28.md)
+[Problem 28: Implement Strstr](problem28.md)
 
 [Problem 475: Heaters](problem475.md)
+
+[Problem 874: Walking Robot Simulation](problem874.md)
 
 [Problem 605: Can Place Flowers](problem605.md)
 
