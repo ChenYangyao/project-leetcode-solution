@@ -66,7 +66,7 @@ class Solution2 {
             return "0"
         }
         
-        var ans = String();var num = num
+        var ans = String(); var num = num
         
         for _ in 0..<8 {
             if num == 0 {
