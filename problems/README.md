@@ -332,3 +332,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 69: Sqrt(x)](problem69.md)
 
+[Problem 125: Valid Palindrome](problem125.md)
+
