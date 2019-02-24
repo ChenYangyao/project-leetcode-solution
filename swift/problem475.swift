@@ -7,12 +7,12 @@ class Solution1 {
                 i += 1
             }
             switch i {
-                case 0:
-                    maxDist = heaters[0]-houses[0]
-                case heaterNum:
-                    return max(maxDist,abs(houses.last!-heaters.last!))
-                default:
-                    maxDist = max(maxDist,min(heaters[i]-ps,ps-heaters[i-1]))
+            case 0:
+                maxDist = heaters[0]-houses[0]
+            case heaterNum:
+                return max(maxDist,abs(houses.last!-heaters.last!))
+            default:
+                maxDist = max(maxDist,min(heaters[i]-ps,ps-heaters[i-1]))
             }
         }
         return maxDist
