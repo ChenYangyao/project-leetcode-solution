@@ -340,3 +340,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 581: Shortest Unsorted Continuous Subarray](problem581.md)
 
+[Problem 532: K-diff Pairs in an Array](problem532.md)
+
