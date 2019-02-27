@@ -334,3 +334,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 125: Valid Palindrome](problem125.md)
 
+[Problem 190: Reverse Bits](problem190.md)
+
+[Problem 400: Nth Digit](problem400.md)
+
