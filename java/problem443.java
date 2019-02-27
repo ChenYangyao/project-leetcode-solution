@@ -16,7 +16,6 @@ class Solution {
             }else{
                 flag=(char)(((int)chars[chars.length-1]-(int)'a'+1)%26);
             }
-
             if(flag==tag){
                 count++;
             }else{
@@ -52,7 +51,6 @@ class Solution {
         for(int item:result){
             System.out.println(item);
         }*/
-
         return result;
     }
 }
