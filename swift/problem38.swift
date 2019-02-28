@@ -4,6 +4,9 @@ class Solution {
             return "1"
         }
         
+	//"n" can be replaced with any other character instead of digit.
+	//"n" is used for the sake of last digit in the following loop
+	//for digits in prevAns {}
         let prevAns = countAndSay(n-1) + "n"
         var ans = String(); var prevDigit = prevAns.first!
         var counter = 0

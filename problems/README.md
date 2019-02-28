@@ -346,3 +346,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 414: Third Maximum Number](problem414.md)
 
+[Problem 168: Excel Sheet Column Title](problem168.md)
+

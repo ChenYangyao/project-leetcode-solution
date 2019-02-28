@@ -1,11 +1,12 @@
 class Solution1 {
     func pow(_ power: Int) -> Int {
         var result = 1
-        for time in 0..<power {
+        for _ in 0..<power {
             result *= 26
         }
         return result
     }
+
     func titleToNumber(_ s: String) -> Int {
         let s = s.unicodeScalars
         var power = s.count - 1

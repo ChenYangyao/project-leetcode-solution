@@ -22,7 +22,7 @@ class Solution1 {
     }
 }
 
-//first facterise num, then form all divisors from factors
+//first factorise num, then form all divisors from factors
 //generally much slower than Sln1 since init() and defer{} take times
 //but for num with factors possessing large multi, it seems like Sln2 is better
 class Solution2 {
