@@ -14,7 +14,7 @@ problem: [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-
 
 **Basic solution**
 
-It is natural to solve this problem by traverse throughout all the points able to form triangles. The time complexity is `O(n^3)`.
+It is natural to solve this problem by traversing throughout all the points able to form triangles. The time complexity is `O(n^3)`.
 
 ```swift
 let length = points.count
