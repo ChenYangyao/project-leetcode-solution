@@ -25,14 +25,13 @@ class Solution1 {
 
 //generally the same idea as Sln1
 //instead of using two sets to avoid duplicates, we first convert nums into set.
-class Solution2 {
+class Solution {
     func findPairs(_ nums: [Int], _ k: Int) -> Int {
         if (k < 0) {
             return 0
         } else if (k == 0) {
             return nums.reduce(into: [:]){$0[$1, default: 0] += 1}.reduce(0,{$1.value > 1 ? $0 + 1 : $0})
         }
-        let tmp = Set(nums)
-        return tmp.reduce(0,{tmp.contains($1 + k) ? $0 + 1 : $0})
+        return {tmp in tmp.reduce(0,{tmp.contains($1 + k) ? $0 + 1 : $0})}(Set(nums))
     }
 }

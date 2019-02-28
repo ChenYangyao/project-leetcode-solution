@@ -342,3 +342,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 532: K-diff Pairs in an Array](problem532.md)
 
+[Problem 189: Rotate Array](problem189.md)
+
