@@ -344,3 +344,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 189: Rotate Array](problem189.md)
 
+[Problem 414: Third Maximum Number](problem414.md)
+
