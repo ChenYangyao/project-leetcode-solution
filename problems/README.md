@@ -350,3 +350,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 204: Count Primes](problem204.md)
 
+[Problem 859: Buddy Strings](problem859.md)
+
