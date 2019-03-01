@@ -354,3 +354,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 7: Reverse Integer](problem7.md)
 
+[Problem 665: Non-decreasing Array](problem665.md)
+
