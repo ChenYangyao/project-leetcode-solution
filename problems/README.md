@@ -352,3 +352,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 859: Buddy Strings](problem859.md)
 
+[Problem 7: Reverse Integer](problem7.md)
+
