@@ -348,3 +348,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 168: Excel Sheet Column Title](problem168.md)
 
+[Problem 204: Count Primes](problem204.md)
+
