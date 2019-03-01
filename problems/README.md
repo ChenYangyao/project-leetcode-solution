@@ -356,3 +356,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 665: Non-decreasing Array](problem665.md)
 
+[Problem 707: Design Linked List](problem707.md)
+
