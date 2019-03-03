@@ -358,3 +358,9 @@ Negative No.: Self-gathered Problems.
 
 [Problem 707: Design Linked List](problem707.md)
 
+[Problem 807: Max Increase to Keep City Skyline](problem807.md)
+
+[Problem 938: Range Sum of BST](problem938.md)
+
+[Problem 535: Encode and Decode TinyURL](problem535.md)
+
