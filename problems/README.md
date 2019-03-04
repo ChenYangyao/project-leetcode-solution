@@ -364,3 +364,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 535: Encode and Decode TinyURL](problem535.md)
 
+[Problem 654: Maximum Binary Tree](problem654.md)
+
