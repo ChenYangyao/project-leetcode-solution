@@ -366,3 +366,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 654: Maximum Binary Tree](problem654.md)
 
+[Problem 701: Insert into a Binary Search Tree](problem701.md)
+
