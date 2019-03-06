@@ -368,3 +368,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 701: Insert into a Binary Search Tree](problem701.md)
 
+[Problem 950: Reveal Cards in Increasing Order](problem950.md)
+
