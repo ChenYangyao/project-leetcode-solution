@@ -370,3 +370,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 950: Reveal Cards in Increasing Order](problem950.md)
 
+[Problem 890: Find and Replace Pattern](problem890.md)
+
