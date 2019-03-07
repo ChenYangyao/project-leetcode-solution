@@ -372,3 +372,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 890: Find and Replace Pattern](problem890.md)
 
+[Problem 814: Binary Tree Pruning](problem814.md)
+
