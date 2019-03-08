@@ -374,3 +374,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 814: Binary Tree Pruning](problem814.md)
 
+[Problem 921: Minimum Add to Make Parentheses Valid](problem921.md)
+
