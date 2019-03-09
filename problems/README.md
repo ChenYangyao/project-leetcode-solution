@@ -376,3 +376,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 921: Minimum Add to Make Parentheses Valid](problem921.md)
 
+[Problem 894: All Possible Full Binary Trees](problem894.md)
+
