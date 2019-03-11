@@ -380,3 +380,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 797: All Paths from Source to Target](problem797.md)
 
+[Problem 861: Score After Flipping Matrix](problem861.md)
+
