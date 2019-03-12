@@ -382,3 +382,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 861: Score After Flipping Matrix](problem861.md)
 
+[Problem 763: Partition Labels](problem763.md)
+
