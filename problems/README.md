@@ -384,3 +384,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 763: Partition Labels](problem763.md)
 
+[Problem 979: Distribute Coins in Binary Tree](problem979.md)
+

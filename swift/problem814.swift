@@ -35,13 +35,12 @@ class Solution {
 class Solution2 {
     private class item {
         var node: TreeNode
-        var toVisit: Bool
+        var toVisit = true
         var parent: TreeNode
         var dir: Bool //left: false, right: true
         
-        init(_ node: TreeNode, _ toVisit: Bool, _ parent: TreeNode, _ dir: Bool) {
+        init(_ node: TreeNode, _ parent: TreeNode, _ dir: Bool) {
             self.node = node
-            self.toVisit = toVisit
             self.parent = parent
             self.dir = dir
         }
@@ -51,17 +50,17 @@ class Solution2 {
         guard let root = root else { return nil }
         let fake = TreeNode(-1); fake.left = root
         
-        var stack = [item(root,true,fake,false)]
+        var stack = [item(root,fake,false)]
         
         while !stack.isEmpty {
             let top = stack.last!
             if top.toVisit {
                 let tmp = top.node
                 if (tmp.left != nil) {
-                    stack.append(item(tmp.left!,true,tmp,false))
+                    stack.append(item(tmp.left!,tmp,false))
                 }
                 if (tmp.right != nil) {
-                    stack.append(item(tmp.right!,true,tmp,true))
+                    stack.append(item(tmp.right!,tmp,true))
                 }
                 top.toVisit = false
             } else {

@@ -125,7 +125,7 @@ class Solution2 {
     }
 }
 
-//DFS using pointer. Try to avoid using pointer in swift!
+//UFS using pointer. Try to avoid using pointer in swift!
 class Solution3 {
     private var row = 0
     private var col = 0
