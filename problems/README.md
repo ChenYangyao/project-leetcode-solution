@@ -386,3 +386,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 979: Distribute Coins in Binary Tree](problem979.md)
 
+[Problem 973: K Closest Points to Origin](problem973.md)
+

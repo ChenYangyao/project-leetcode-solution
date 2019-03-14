@@ -1,20 +1,20 @@
 //recursive, time limit exceeded
 class Solution1 {
-    private var cost_cp = [Int]()
+    private var cost = [Int]()
     
     func minCostClimbingStairs(_ cost: [Int]) -> Int {
-        cost_cp = cost
+        self.cost = cost
         let last = cost.count - 1
         return min(minCost(last),minCost(last-1))
     }
     
     func minCost(_ index: Int) -> Int {
         if (index == 1) {
-            return cost_cp[1]
+            return cost[1]
         } else if (index == 0) {
-            return cost_cp[0]
+            return cost[0]
         }
-        return cost_cp[index] + min(minCost(index-1),minCost(index-2))
+        return cost[index] + min(minCost(index-1),minCost(index-2))
     }
 }
 
