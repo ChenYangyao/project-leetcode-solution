@@ -388,3 +388,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 973: K Closest Points to Origin](problem973.md)
 
+[Problem 419: Battleships in a Board](problem419.md)
+
