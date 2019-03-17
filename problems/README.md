@@ -392,3 +392,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 537: Complex Number Multiplication](problem537.md)
 
+[Problem 951: Flip Equivalent Binary Trees](problem951.md)
+
