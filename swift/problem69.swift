@@ -10,7 +10,6 @@ class Solution1 {
         while (prev-ans > 1) {
             prev = ans
             ans = (x/prev+prev)/2
-            print(ans,prev)
         }
         return (ans*ans > x ? ans-1 : ans)
     }

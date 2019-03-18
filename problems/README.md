@@ -394,3 +394,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 951: Flip Equivalent Binary Trees](problem951.md)
 
+[Problem 338: Counting Bits](problem338.md)(with concise explanation)
+
