@@ -17,11 +17,17 @@ problem: [Counting Bits](https://leetcode.com/problems/counting-bits/)
 Since the question requires an one-pass O(n) solution, a recursive relation is preferred to use.
 
 For any non-negative natural number, it is either even or odd. For an even number, the last digit of its binary form must be zero, and the right bit shift will NOT change the bit count, i.e. bit counts of half of the number and itself is the SAME:
+```text
 	bitCount[i] = bitCount[i >> 1] // i is even.
+```
 
 For an odd number, right bit shift will reduce one of the bit count, i.e.
+```text
 	bitCount[i] = bitCount[i >> 1] + 1 // i is odd
+```
 
 In summary, we can write down the following recursive relation:
+```text
 	bitCount[i] = bitCount[i >> 1] + i & 1
+```
 
