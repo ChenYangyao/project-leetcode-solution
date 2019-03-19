@@ -29,7 +29,7 @@ class Solution1 {
                 }
             }
             for index in 0..<length {
-                results[index].append(Character((char)))
+                results[index].append(Character(char))
             }
         }
         return results

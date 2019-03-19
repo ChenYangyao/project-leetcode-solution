@@ -396,3 +396,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 338: Counting Bits](problem338.md)(with concise explanation)
 
+[Problem 885: Spiral Matrix III](problem885.md)
+
