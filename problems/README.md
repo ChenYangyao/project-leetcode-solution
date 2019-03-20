@@ -398,3 +398,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 885: Spiral Matrix III](problem885.md)
 
+[Problem 998: Maximum Binary Tree II](problem998.md)
+

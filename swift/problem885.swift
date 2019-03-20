@@ -1,5 +1,5 @@
 class Solution {
-    private let op = [(true,true),(false,true),(true,false),(false,false)] //first: true for row, false for col; second: true forward, false backward
+    private let op = [(true,1),(false,1),(true,-1),(false,-1)] //first: true for row, false for col; second: 1 forward, -1 backward
     private var ans = [[Int]]()
     private var current = [Int]()
     var visited = 1
@@ -23,12 +23,12 @@ class Solution {
         return ans
     }
     
-    private func move(_ direction: Bool, _ forward: Bool, _ step: Int, _ R: Int, _ C: Int) {
+    private func move(_ direction: Bool, _ forward: Int, _ step: Int, _ R: Int, _ C: Int) {
         for _ in 0..<step {
             if direction {
-                current[1] += forward ? 1 : -1
+                current[1] += forward
             } else {
-                current[0] += forward ? 1 : -1
+                current[0] += forward
             }
             let row = current[0]; let col = current[1]
             if (row < R && row >= 0 && col < C && col >= 0) {
