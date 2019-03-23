@@ -402,3 +402,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 986: Interval List Intersections](problem986.md)
 
+[Problem 969: Pancake Sorting](problem969.md)
+
