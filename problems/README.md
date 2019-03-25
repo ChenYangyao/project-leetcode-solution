@@ -404,3 +404,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 969: Pancake Sorting](problem969.md)
 
+[Problem 959: Regions Cut by Slashes](problem959.md)
+
