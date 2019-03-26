@@ -406,3 +406,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 959: Regions Cut by Slashes](problem959.md)
 
+[Problem 791: Custom Sort String](problem791.md)
+
