@@ -408,3 +408,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 791: Custom Sort String](problem791.md)
 
+[Problem 877: Stone Game](problem877.md)
+
