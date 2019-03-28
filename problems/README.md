@@ -410,3 +410,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 877: Stone Game](problem877.md)
 
+[Problem 442: Find All Duplicates in an Array](problem442.md)
+
