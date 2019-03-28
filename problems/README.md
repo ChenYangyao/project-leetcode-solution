@@ -412,3 +412,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 442: Find All Duplicates in an Array](problem442.md)
 
+[Problem 841: Keys and Rooms](problem841.md)
+
