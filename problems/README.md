@@ -414,3 +414,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 841: Keys and Rooms](problem841.md)
 
+[Problem 739: Daily Temperatures](problem739.md)
+
