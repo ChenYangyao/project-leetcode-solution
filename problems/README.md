@@ -416,3 +416,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 739: Daily Temperatures](problem739.md)
 
+[Problem 406: Queue Reconstruction by Height](problem406.md)
+
