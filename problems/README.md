@@ -418,3 +418,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 406: Queue Reconstruction by Height](problem406.md)
 
+[Problem 889: Construct Binary Tree from Preorder and Postorder Traversal](problem889.md)
+
