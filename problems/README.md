@@ -424,3 +424,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 513: Find Bottom Left Tree Value](problem513.md)
 
+[Problem 946: Validate Stack Sequences](problem946.md)
+
