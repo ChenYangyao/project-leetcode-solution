@@ -426,3 +426,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 946: Validate Stack Sequences](problem946.md)
 
+[Problem 983: Minimum Cost for Tickets](problem983.md)
+
