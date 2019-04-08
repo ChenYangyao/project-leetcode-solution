@@ -13,23 +13,27 @@ public class TreeNode {
 class Solution {
     typealias nodeDepth = (node: TreeNode, depth: Int)
     
-    func findBottomLeftValue(_ root: TreeNode?) -> Int {
-        var queue = [nodeDepth(root!, 0)]
-        var ans = root!.val; var currentDepth = 0
+    func largestValues(_ root: TreeNode?) -> [Int] {
+        guard let root = root else { return [] }
+        
+        var queue = [nodeDepth(root,0)]
+        var ans = [root.val]; var currentDepth = 0
         
         while !queue.isEmpty {
             let tmp = queue.removeFirst()
             
             if (tmp.depth > currentDepth) {
                 currentDepth = tmp.depth
-                ans = tmp.node.val
+                ans.append(tmp.node.val)
+            } else {
+                ans[tmp.depth] = max(ans[tmp.depth], tmp.node.val)
             }
             
             if (tmp.node.left != nil) {
-                queue.append((tmp.node.left!, tmp.depth+1))
+                queue.append((tmp.node.left!, tmp.depth + 1))
             }
             if (tmp.node.right != nil) {
-                queue.append((tmp.node.right!, tmp.depth+1))
+                queue.append((tmp.node.right!, tmp.depth + 1))
             }
         }
         

@@ -11,16 +11,14 @@ public class TreeNode {
 
 //trivial breadth-first traversal
 class Solution {
+    typealias nodeDepth = (node: TreeNode, depth: Int)
+    
     func minDepth(_ root: TreeNode?) -> Int {
         guard let root = root else {
             return 0
         }
         
-        typealias nodeDepth = (node: TreeNode, depth: Int)
-        
-        var queue = [nodeDepth]()
-        
-        queue.append((root, 1))
+        var queue = [nodeDepth(root, 1)]
         
         while !queue.isEmpty {
             let tmp = queue.removeFirst()
