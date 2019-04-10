@@ -74,7 +74,7 @@ public:
  *                gives the right most different bit of p and k
  * (2) partition input nums into two sets, according to the bit found in (1)
  *     set or unset, e.g.
- * 			 num & rmbit == 0 for the first set, == 1 for the second
+ * 			 num & rmbit == 0 for the first set, == rmbit for the second
  * (3) we know that one set must contain the missing number, another set 
  *     contains the repeated one. we can found them by XOR.
  * 

@@ -12,6 +12,8 @@ Negative No.: Self-gathered Problems.
 
 [problem 521: Longest Uncommon Subsequence I](problem521.md)
 
+[Problem 136: Single Number](problem136.md)
+
 [problem 292: Nim Game](problem292.md)
 
 [problem 226: Invert Binary Tree](problem226.md)
@@ -429,4 +431,8 @@ Negative No.: Self-gathered Problems.
 [Problem 983: Minimum Cost for Tickets](problem983.md)
 
 [Problem 515: Find Largest Value in Each Tree Row](problem515.md)
+
+[Problem 540: Single Element in a Sorted Array](problem540.md)
+
+[Problem 260: Single Number III](problem260.md)
 
