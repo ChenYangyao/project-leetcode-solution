@@ -436,3 +436,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 260: Single Number III](problem260.md)
 
+[Problem 647: Palindromic Substrings](problem647.md)
+
