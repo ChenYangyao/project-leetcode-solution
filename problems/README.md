@@ -438,3 +438,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 647: Palindromic Substrings](problem647.md)
 
+[Problem 94: Binary Tree Inorder Traversal](problem94.md)
+
