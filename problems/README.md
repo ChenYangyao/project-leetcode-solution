@@ -440,3 +440,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 94: Binary Tree Inorder Traversal](problem94.md)
 
+[Problem 856: Score of Parentheses](problem856.md)
+
