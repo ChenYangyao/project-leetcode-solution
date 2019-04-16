@@ -442,3 +442,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 856: Score of Parentheses](problem856.md)
 
+[Problem 413: Arithmetic Slices](problem413.md)
+

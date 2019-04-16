@@ -1,20 +1,17 @@
 class Solution1 {
     func scoreOfParentheses(_ S: String) -> Int {
-        var stack = [Int](); var depth = -1
+        var stack = [Int](repeating: 0, count: S.count/2); var depth = -1
         var prev = Character("(")
         
         for char in S {
             if (char == "(") {
                 depth += 1
-                if (prev == "(") {
-                    stack.append(0)
-                }
             } else {
                 if (prev == "(") {
                     stack[depth] += 1
                 } else {
                     stack[depth] += stack[depth+1]*2
-                    stack.removeLast(1)
+                    stack[depth+1] = 0
                 }
                 depth -= 1
             }
