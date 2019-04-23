@@ -12,10 +12,11 @@ public class TreeNode {
 //ref: https://leetcode.com/problems/binary-tree-pruning/solution/
 class Solution {
     func pruneTree(_ root: TreeNode?) -> TreeNode? {
-        _ = prune(root)
+        prune(root)
         return root
     }
     
+    @discardableResult
     private func prune(_ node: TreeNode?) -> Bool {
         guard let node = node else {
             return true

@@ -450,3 +450,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 553: Optimal Division](problem553.md)
 
+[Problem 919: Complete Binary Tree Inserter](problem919.md)
+

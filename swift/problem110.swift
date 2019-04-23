@@ -49,7 +49,7 @@ class Solution {
                 } else {
                     top.parent.leftHeight = parentHeight
                 }
-                _ = stack.removeLast()
+                stack.removeLast(1)
             } else {
                 if (top.p.left != nil) {
                     stack.append(stackItem(top.p.left!,top,false))

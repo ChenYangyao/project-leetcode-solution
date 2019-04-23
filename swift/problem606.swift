@@ -49,7 +49,7 @@ class Solution2 {
                 if (tmp!.right != nil) {
                     s += ")"
                 }
-                _ = stack.popLast()
+                stack.removeLast(1)
                 tmp = nil
             } else {
                 if (tmp!.right != nil) {
@@ -58,10 +58,10 @@ class Solution2 {
                     tmp = tmp!.right
                 } else if (tmp!.left != nil) {
                     s += ")"
-                    _ = stack.popLast()
+                    stack.removeLast(1)
                     tmp = nil
                 } else {
-                    _ = stack.popLast()
+                    stack.removeLast(1)
                     tmp = nil
                 }
             }

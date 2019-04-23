@@ -16,10 +16,11 @@ class Solution1 {
     
     func distributeCoins(_ root: TreeNode?) -> Int {
         ans = 0
-        _ = dfs(root)
+        dfs(root)
         return ans
     }
     
+    @discardableResult
     private func dfs(_ node: TreeNode?) -> Int {
         guard let node = node else { return 0 }
         

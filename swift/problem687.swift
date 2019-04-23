@@ -14,13 +14,14 @@ class Solution {
     private var l = 0
     
     func longestUnivaluePath(_ root: TreeNode?) -> Int {
-        _ = longest(root)
+        longest(root)
         defer {
             l = 0
         }
         return l
     }
     
+    @discardableResult
     private func longest(_ root: TreeNode?) -> Int {
         guard let root = root else {
             return 0

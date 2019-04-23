@@ -6,7 +6,7 @@ class Solution {
     func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {
         size = flowerbed.count; var flowerbed = flowerbed
         var i = -1
-        _ = nextFlower(&flowerbed, &i) //first planted flower
+        nextFlower(&flowerbed, &i) //first planted flower
         
         if (i == size) {
             return (i+1)>>1 >= n
@@ -26,6 +26,7 @@ class Solution {
         return (nget + (size-i-1)>>1) >= n
     }
     
+    @discardableResult
     private func nextFlower(_ flowerbed: inout [Int], _ i: inout Int) -> Int {
         repeat {
             i += 1

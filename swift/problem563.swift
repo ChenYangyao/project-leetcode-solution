@@ -14,13 +14,14 @@ class Solution {
     private var tilt = 0
     
     func findTilt(_ root: TreeNode?) -> Int {
-        _ = diff(root)
+        diff(root)
         defer {
             tilt = 0
         }
         return tilt
     }
     
+    @discardableResult
     private func diff(_ root: TreeNode?) -> Int {
         if (root == nil) {
             return 0

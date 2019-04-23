@@ -123,7 +123,7 @@ class Solution1 {
                 if (tmp == tNum && isSameTree(top.p,t)) {
                     return true
                 }
-                _ = stack.removeLast()
+                stack.removeLast(1)
             } else {
                 top.visited = true
                 if (top.p.left != nil) {

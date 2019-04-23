@@ -13,6 +13,7 @@ public class TreeNode {
 class Solution {
     private var ans = 0
     
+    @discardableResult
     private func height(_ root: TreeNode?) -> Int {
         if (root == nil) {
             return 0
@@ -24,7 +25,7 @@ class Solution {
     }
     
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
-        _ = height(root)
+        height(root)
         defer {
             ans = 0
         }
