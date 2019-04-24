@@ -109,7 +109,7 @@ class Solution1 {
         
         stack.append(stackItem(s!, countNumber(), false))
 
-        //post-order traverse
+        //post-order traversal
         while !stack.isEmpty {
             let top = stack.last!
 

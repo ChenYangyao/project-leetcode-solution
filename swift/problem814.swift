@@ -31,7 +31,7 @@ class Solution {
     }
 }
 
-//iterative sln.
+//iterative post-order sln.
 //swift implementation of cpp version
 class Solution2 {
     private class item {

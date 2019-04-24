@@ -36,19 +36,18 @@ class CBTInserter {
     }
     
     func insert(_ v: Int) -> Int {
-        var ans = 0
-        
-        if (cur.left == nil) {
-            cur.left = TreeNode(v)
-            deque.append(cur.left!)
-            ans = cur.val
-        } else {
-            cur.right = TreeNode(v)
-            deque.append(cur.right!)
-            ans = cur.val
-            cur = deque.removeFirst()
+        defer {
+            if (cur.left == nil) {
+                cur.left = TreeNode(v)
+                deque.append(cur.left!)
+            } else {
+                cur.right = TreeNode(v)
+                deque.append(cur.right!)
+                cur = deque.removeFirst()
+            }
         }
-        return ans
+        
+        return cur.val
     }
     
     func get_root() -> TreeNode? {

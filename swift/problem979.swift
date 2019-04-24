@@ -30,7 +30,7 @@ class Solution1 {
     }
 }
 
-//iterative sln
+//iterative post-oder sln
 class Solution2 {
     private class sum {
         var coins = -1

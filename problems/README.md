@@ -452,3 +452,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 919: Complete Binary Tree Inserter](problem919.md)
 
+[Problem 865: Smallest Subtree with all the Deepest Nodes](problem865.md)
+
