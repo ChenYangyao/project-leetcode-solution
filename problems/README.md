@@ -454,3 +454,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 865: Smallest Subtree with all the Deepest Nodes](problem865.md)
 
+[Problem 789: Escape the Ghosts](problem789.md)
+
