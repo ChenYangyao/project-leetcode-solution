@@ -458,3 +458,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 902: Numbers at Most N Given Digit Set](problem902.md)
 
+[Problem 1031: Maximum Sum of Two Non-Overlapping Subarrays](problem1031.md)
+
+[Problem 609: Find Duplicate File in System](problem609.md)
+
