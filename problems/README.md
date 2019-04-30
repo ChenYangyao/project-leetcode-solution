@@ -462,3 +462,7 @@ Negative No.: Self-gathered Problems.
 
 [Problem 609: Find Duplicate File in System](problem609.md)
 
+[Problem 46: Permutations](problem46.md)
+
+[Problem 238: Product of Array Except Self](problem238.md)
+
