@@ -466,3 +466,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 238: Product of Array Except Self](problem238.md)
 
+[Problem 1020: Number of Enclaves](problem1020.md)
+

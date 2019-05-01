@@ -12,7 +12,7 @@ using namespace std;
 //  - Here we use matrix element 0 to represent the sea, use 1 to represent the island.
 //  - Positive number holded by root element represents the number of elements in the connected component.
 //  - Negative number holded by non-root element represent the index of the parent element in the tree.
-//        The 2-d indenx and 1-d index (negative) can be converted using id2coord() and coord2id().
+//        The 2-d index and 1-d index (negative) can be converted using id2coord() and coord2id().
 //  - linear time cost. As tested below, this is also faster than the DFS methods done either by recursion or iteration.
 //  - CONSTANT space cost. This is the most important merit of the UFSet.
 // Creat: Yangyao, date 20181006
