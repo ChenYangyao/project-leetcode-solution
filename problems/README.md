@@ -468,3 +468,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 1020: Number of Enclaves](problem1020.md)
 
+[Problem 347: Top K Frequent Elements](problem347.md)
+
