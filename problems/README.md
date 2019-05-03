@@ -470,3 +470,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 347: Top K Frequent Elements](problem347.md)
 
+[Problem 22: Generate Parentheses](problem22.md)
+
