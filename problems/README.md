@@ -472,3 +472,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 22: Generate Parentheses](problem22.md)
 
+[Problem 817: Linked List Components](problem817.md)
+
