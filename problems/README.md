@@ -474,3 +474,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 817: Linked List Components](problem817.md)
 
+[Problem 526: Beautiful Arrangement](problem526.md)
+
