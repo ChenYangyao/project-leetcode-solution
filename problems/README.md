@@ -478,3 +478,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 508: Most Frequent Subtree Sum](problem508.md)
 
+[Problem 712: Minimum ASCII Delete Sum for Two Strings](problem712.md)
+
