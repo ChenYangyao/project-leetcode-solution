@@ -480,3 +480,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 712: Minimum ASCII Delete Sum for Two Strings](problem712.md)
 
+[Problem 947: Most Stones Removed with Same Row or Column](problem947.md)
+
