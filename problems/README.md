@@ -482,3 +482,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 947: Most Stones Removed with Same Row or Column](problem947.md)
 
+[Problem 1006: Clumsy Factorial](problem1006.md)
+
