@@ -484,3 +484,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 1006: Clumsy Factorial](problem1006.md)
 
+[Problem 547: Friend Circles](problem547.md)
+
