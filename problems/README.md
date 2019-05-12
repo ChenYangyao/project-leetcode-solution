@@ -486,3 +486,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 547: Friend Circles](problem547.md)
 
+[Problem 932: Beautiful Array](problem932.md)
+

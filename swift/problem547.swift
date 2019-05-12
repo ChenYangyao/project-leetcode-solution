@@ -1,23 +1,18 @@
 //union-find
 class UF {
-    private var root: [Int:Int]
+    private var root: [Int]
     var setCount: Int
     
-    init() {
-        self.root = [Int:Int]()
-        self.setCount = 0
+    init(_ N: Int) {
+        self.root = [Int](0..<N)
+        self.setCount = N
     }
     
     func find(_ x: Int) -> Int {
         if (root[x] != x) {
-            if (root[x] != nil) {
-                root[x] = find(root[x]!)
-            } else {
-                root[x] = x
-                setCount += 1
-            }
+            root[x] = find(root[x])
         }
-        return root[x]!
+        return root[x]
     }
     
     func union(_ x: Int, _ y: Int) {
@@ -32,10 +27,11 @@ class UF {
 
 class Solution {
     func findCircleNum(_ M: [[Int]]) -> Int {
-        let ufs = UF()
+        let N = M.count
+        let ufs = UF(N)
         
-        for x in 0..<M.count {
-            for y in x..<M[0].count {
+        for x in 0..<N {
+            for y in (x+1)..<N {
                 if (M[x][y] == 1) {
                     ufs.union(x, y)
                 }
