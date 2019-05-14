@@ -488,3 +488,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 932: Beautiful Array](problem932.md)
 
+[Problem 1004: Max Consecutive Ones III](problem1004.md)
+
