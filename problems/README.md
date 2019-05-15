@@ -490,3 +490,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 1004: Max Consecutive Ones III](problem1004.md)
 
+[Problem 529: Minesweeper](problem529.md)
+
