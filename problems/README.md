@@ -492,3 +492,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 529: Minesweeper](problem529.md)
 
+[Problem 78: Subsets](problem78.md)
+
