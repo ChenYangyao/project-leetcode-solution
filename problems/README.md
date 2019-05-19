@@ -496,3 +496,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 565: Array Nesting](problem565.md)
 
+[Problem 462: Minimum Moves to Equal Array Elements II](problem462.md)
+
