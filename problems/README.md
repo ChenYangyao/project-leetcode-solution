@@ -500,3 +500,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 1011: Capacity to Ship Packages Within D Days](problem1011.md)
 
+[Problem 495: Teemo Attacking](problem495.md)
+
