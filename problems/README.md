@@ -506,3 +506,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 858: Mirror Reflection](problem858.md)
 
+[Problem 667: Beautiful Arrangement II](problem667.md)
+
