@@ -508,3 +508,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 667: Beautiful Arrangement II](problem667.md)
 
+[Problem 655: Print Binary Tree](problem655.md)
+

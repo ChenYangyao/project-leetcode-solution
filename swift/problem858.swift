@@ -1,4 +1,4 @@
-//ref: https://leetcode.com/problems/mirror-reflection/solution/
+//ref: https://leetcode.com/problems/mirror-reflection/discuss/146336/Java-solution-with-an-easy-to-understand-explanation
 //Approach 2
 class Solution {
     func mirrorReflection(_ p: Int, _ q: Int) -> Int {
