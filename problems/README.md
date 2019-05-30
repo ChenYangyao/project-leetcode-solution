@@ -512,3 +512,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 1003: Check If Word Is Valid after Substitutions](problem1003.md)
 
+[Problem 648: Replace Words](problem648.md)
+
