@@ -510,3 +510,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 655: Print Binary Tree](problem655.md)
 
+[Problem 1003: Check If Word Is Valid after Substitutions](problem1003.md)
+
