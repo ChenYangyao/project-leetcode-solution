@@ -514,3 +514,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 648: Replace Words](problem648.md)
 
+[Problem 684: Redundant Connection](problem684.md)
+
