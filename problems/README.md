@@ -518,3 +518,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 781: Rabbits in Forest](problem781.md)
 
+[Problem 676: Implement Magic Dictionary](problem676.md)
+
