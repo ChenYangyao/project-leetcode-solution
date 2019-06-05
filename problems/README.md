@@ -516,3 +516,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 684: Redundant Connection](problem684.md)
 
+[Problem 781: Rabbits in Forest](problem781.md)
+
