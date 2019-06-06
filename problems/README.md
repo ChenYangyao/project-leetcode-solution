@@ -520,3 +520,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 676: Implement Magic Dictionary](problem676.md)
 
+[Problem 769: Max Chunks to Make Sorted](problem769.md)
+
