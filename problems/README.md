@@ -522,3 +522,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 769: Max Chunks to Make Sorted](problem769.md)
 
+[Problem 216: Combination Sum III](problem216.md)
+
