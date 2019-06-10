@@ -524,3 +524,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 216: Combination Sum III](problem216.md)
 
+[Problem 230: Kth Smallest Element in a BST](problem230.md)
+
