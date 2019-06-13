@@ -528,3 +528,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 677: Map Sum Pairs](problem677.md)
 
+[Problem 756: Pyramid Transition Matrix](problem756.md)
+
