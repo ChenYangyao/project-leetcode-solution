@@ -530,3 +530,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 756: Pyramid Transition Matrix](problem756.md)
 
+[Problem 1035: Uncrossed Lines](problem1035.md)
+
