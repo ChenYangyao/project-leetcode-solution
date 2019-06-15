@@ -534,3 +534,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 144: Binary Tree Preorder Traversal](problem144.md)
 
+[Problem 503: Next Greater Element II](problem503.md)
+
