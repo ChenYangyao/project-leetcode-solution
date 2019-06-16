@@ -536,3 +536,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 503: Next Greater Element II](problem503.md)
 
+[Problem 421: Maximum XOR of Two Numbers in an Array](problem421.md)
+
