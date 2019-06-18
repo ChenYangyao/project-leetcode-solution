@@ -540,3 +540,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 12: Integer to Roman](problem12.md)
 
+[Problem 869: Reordered Power of 2](problem869.md)
+
