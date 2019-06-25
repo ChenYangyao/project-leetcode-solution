@@ -12,6 +12,7 @@ class KthLargest {
         return nums[k-1]
     }
     
+    //binary search
     func search(_ target: Int) -> Int {
         var head = 0; var mid = 0; var tail = nums.count - 1
         
