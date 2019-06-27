@@ -546,3 +546,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 981: Time Based Key-Value Store](problem981.md)
 
+[Problem 714: Best Time to Buy and Sell Stock with Transaction Fee](problem714.md)
+

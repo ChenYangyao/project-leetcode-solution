@@ -14,6 +14,7 @@ class TimeMap {
         }
     }
     
+    //binary search
     func get(_ key: String, _ timestamp: Int) -> String {
         guard let entry = dict[key] else { return "" }
         
