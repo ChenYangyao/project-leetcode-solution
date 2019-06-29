@@ -548,3 +548,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 714: Best Time to Buy and Sell Stock with Transaction Fee](problem714.md)
 
+[Problem 939: Minimum Area Rectangle](problem939.md)
+
