@@ -554,3 +554,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 900: RLE Iterator](problem900.md)
 
+[Problem 398: Random Pick Index](problem398.md)
+
