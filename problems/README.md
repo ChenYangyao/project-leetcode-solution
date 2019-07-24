@@ -556,3 +556,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 398: Random Pick Index](problem398.md)
 
+[Problem 384: Shuffle an Array](problem384.md)
+
