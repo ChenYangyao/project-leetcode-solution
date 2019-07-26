@@ -558,3 +558,5 @@ Negative No.: Self-gathered Problems.
 
 [Problem 384: Shuffle an Array](problem384.md)
 
+[Problem 287: Find the Duplicate Number](problem287.md)
+
